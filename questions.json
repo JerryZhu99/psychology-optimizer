@@ -1,0 +1,982 @@
+[
+    {
+        "Question": "Explain how principles that define the cognitive level of analysis may be demonstrated in research.",
+        "Marks": 8,
+        "Required": 2,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Walker",
+            "Yuille & Cutshall",
+            "Cahill",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Discuss how and why particular research methods are used at the cognitive level of analysis.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Walker",
+            "Yuille & Cutshall",
+            "Cahill",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Discuss ethical considerations related to research studies at the cognitive level of analysis.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Cole & Scribner (2)",
+            "Walker",
+            "Yuille & Cutshall",
+            "Cahill",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Evaluate schema theory with reference to relevant research studies.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Ross & Millsom"
+        ]
+    },
+    {
+        "Question": "Evaluate two models or theories of one cognitive process with reference to research studies.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Yuille & Cutshall",
+            "Cahill",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Explain how biological factors may affect one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Walker"
+        ]
+    },
+    {
+        "Question": "Discuss how social or cultural factors may affect one cognitive process.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Cole & Scribner (2)"
+        ]
+    },
+    {
+        "Question": "With reference to relevant research studies, to what extent is one cognitive process reliable?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Walker",
+            "Yuille & Cutshall",
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Discuss the use of technology in investigating cognitive processes.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot"
+        ]
+    },
+    {
+        "Question": "To what extent do cognitive and biological factors interact in emotion?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot"
+        ]
+    },
+    {
+        "Question": "Evaluate one theory of how emotion may affect one cognitive process.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Yuille & Cutshall",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Describe stressors.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving",
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Outline two stressors. Evaluate one strategy for coping with stress.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Discuss physiological aspects of stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving"
+        ]
+    },
+    {
+        "Question": "Discuss psychological aspects of stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot"
+        ]
+    },
+    {
+        "Question": "Discuss psychological aspects of stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot"
+        ]
+    },
+    {
+        "Question": "Discuss social aspects of stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving"
+        ]
+    },
+    {
+        "Question": "Discuss two aspects of stress (physiological, psychological, or social)",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Evaluate the effectiveness of one strategy for coping with stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Explain factors related to the development of substance use or addictive behavior.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Bauman",
+            "Oberlin",
+            "Volkow",
+            "Shuckit",
+            "Morgan",
+            "Childress"
+        ]
+    },
+    {
+        "Question": "Examine treatments for substance abuse and addictive behavior.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Health",
+        "Studies": [
+            "Childress (2)",
+            "Olsen"
+        ]
+    },
+    {
+        "Question": "Examine prevention strategies for substance abuse and addictive behavior.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Health",
+        "Studies": [
+            "Gorini",
+            "Lemstra"
+        ]
+    },
+    {
+        "Question": "Discuss factors related to overeating and the development of obesity",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Sandy Lake",
+            "Philadelphia",
+            "Stunkard",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Discuss treatments for obesity",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Health",
+        "Studies": [
+            "Sandy Lake",
+            "Philadelphia"
+        ]
+    },
+    {
+        "Question": "Discuss prevention strategies for obesity",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Sandy Lake",
+            "Philadelphia",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Discuss the effectiveness of health promotion strategies",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Olsen",
+            "Gorini",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia"
+        ]
+    },
+    {
+        "Question": "Examine models or theories of health promotion",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Health",
+        "Studies": [
+            "Olsen",
+            "Sandy Lake",
+            "Philadelphia"
+        ]
+    },
+    {
+        "Question": "To what extent do biological factors influence health related behavior?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving",
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman",
+            "Bauman",
+            "Oberlin",
+            "Volkow",
+            "Shuckit",
+            "Morgan",
+            "Childress",
+            "Childress (2)",
+            "Olsen",
+            "Stunkard",
+            "Pima Indians"
+        ]
+    },
+    {
+        "Question": "To what extent do cognitive factors influence health related behavior?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Evaluate psychological research (that is, theories and/or studies) relevant to health psychology",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving",
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman",
+            "Bauman",
+            "Oberlin",
+            "Volkow",
+            "Shuckit",
+            "Morgan",
+            "Childress",
+            "Childress (2)",
+            "Olsen",
+            "Gorini",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Stunkard",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Explain social learning theory, making reference to one relevant study",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Bauman",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Describe the use of one compliance technique",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Cialdini"
+        ]
+    },
+    {
+        "Question": "Outline one factor that influences conformity",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Smith and Bond"
+        ]
+    },
+    {
+        "Question": "Describe the role of one cultural dimension on behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Smith and Bond"
+        ]
+    },
+    {
+        "Question": "Using one example, explain one etic or emic concept",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians"
+        ]
+    },
+    {
+        "Question": "Describe the role of one situational and dispositional factor in explaining behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Kashima and Triandis"
+        ]
+    },
+    {
+        "Question": "Outline two errors in attribution",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Kashima and Triandis"
+        ]
+    },
+    {
+        "Question": "Describe one theory or study on the formation of stereotypes",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Steele and Aronson"
+        ]
+    },
+    {
+        "Question": "Explain how stereotypes affect behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Steele and Aronson"
+        ]
+    },
+    {
+        "Question": "Outline social identity theory",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Outline one (two) ethical consideration related to one research study at the sociocultural level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians",
+            "Cialdini",
+            "Smith and Bond",
+            "Kashima and Triandis",
+            "Steele and Aronson",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Explain how one particular research method is used at the sociocultural level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians",
+            "Cialdini",
+            "Smith and Bond",
+            "Kashima and Triandis",
+            "Steele and Aronson",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Explain why one particular research method is used at the sociocultural level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians",
+            "Cialdini",
+            "Smith and Bond",
+            "Kashima and Triandis",
+            "Steele and Aronson",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Outline how one principle that defines the sociocultural level of analysis may be demonstrated in research",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians",
+            "Cialdini",
+            "Smith and Bond",
+            "Kashima and Triandis",
+            "Steele and Aronson",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Define the terms culture and cultural norms",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
+            "Greenberg",
+            "Sandy Lake",
+            "Pima Indians",
+            "Cialdini",
+            "Smith and Bond",
+            "Kashima and Triandis",
+            "Steele and Aronson",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Explain one study related to localization of function in the brain`",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Cahill",
+            "Phelps & Sharot"
+        ]
+    },
+    {
+        "Question": "Explain how one brain imaging technology can be used in investigating the relationship between biological factors and behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Oberlin",
+            "Morgan",
+            "Childress",
+            "Childress (2)"
+        ]
+    },
+    {
+        "Question": "Discuss the use of brain imaging technologies in investigating the relationship between biological factors and behaviour",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot"
+        ]
+    },
+    {
+        "Question": "Using one example, explain the effects of neurotransmission on human behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Oberlin",
+            "Volkow"
+        ]
+    },
+    {
+        "Question": "Using one example, explain the effects of one/two hormones on human behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Marmot",
+            "Loving",
+            "Taylor"
+        ]
+    },
+    {
+        "Question": "Outline one study which shows the interaction between cognition and physiology in terms of behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving (2)",
+            "Davidson"
+        ]
+    },
+    {
+        "Question": "Examine the interaction between cognition and physiology in terms of behavior",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving (2)",
+            "Davidson"
+        ]
+    },
+    {
+        "Question": "Describe one effect of the environment on physiological processes",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Discuss two effects of the environment on physiological processes",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Biological",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Outline one principle the defines the biological level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Explain how principles that define the biological level of analysis may be demonstrated in research",
+        "Marks": 8,
+        "Required": 2,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Outline one ethical consideration related to research studies at the biological level of biological level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Discuss ethical considerations related to research studies at the biological level of analysis",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Explain one evolutionary explanation of behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Taylor"
+        ]
+    },
+    {
+        "Question": "Examine one evolutionary explanation of behavior",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Taylor"
+        ]
+    },
+    {
+        "Question": "Using one research study, describe the influence genetic inheritance has on behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Oberlin",
+            "Shuckit",
+            "Stunkard",
+            "Pima Indians"
+        ]
+    },
+    {
+        "Question": "With reference to relevant research studies, to what extent does genetic inheritance influence behavior?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Oberlin",
+            "Shuckit",
+            "Stunkard",
+            "Pima Indians"
+        ]
+    },
+    {
+        "Question": "Describe one ethical consideration in research into genetic influences on behavior",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Oberlin",
+            "Shuckit",
+            "Stunkard"
+        ]
+    },
+    {
+        "Question": "Discuss ethical considerations related to research conducted into genetic influences on behavior",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Biological",
+        "Studies": [
+            "Oberlin",
+            "Shuckit",
+            "Stunkard"
+        ]
+    },
+    {
+        "Question": "Explain how one research method is used at the biological level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Explain why one research method is used at the biological level of analysis",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    },
+    {
+        "Question": "Discuss how and why particular research methods are used at the biological level of analysis",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Biological",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot",
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oberlin",
+            "Volkow",
+            "Morgan",
+            "Childress",
+            "Lemstra",
+            "Sandy Lake",
+            "Philadelphia",
+            "Pima Indians",
+            "Dhar"
+        ]
+    }
+]

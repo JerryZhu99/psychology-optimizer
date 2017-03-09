@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Editor</title>
+    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="editor.js" charset="utf-8"></script>
+    <body ng-app="app" ng-controller="editor">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        IB Psychology Study Optimizer
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Study Optimizer</h1>
+                </div>
+                <form class="form">
+                    <div class="col-md-6">
+                        <select class="form-control" ng-model="currentquestion" ng-change="update()">
+                            <option value="{{$index}}" ng-repeat="question in questions">{{question.Question}}</option>
+                        </select>
+                        <textarea type="textarea" class="form-control" ng-model="output" rows="{{20}}">{{output}}</textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <select class="form-control" multiple ng-attr-size="{{size}}" ng-model="selectedstudies" ng-change="update()">
+                            <option value="{{study.Name}}" ng-repeat="study in studies">{{study.Name}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

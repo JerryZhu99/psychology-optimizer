@@ -1,0 +1,170 @@
+[
+    {
+        "Name": "Anderson & Pichert",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Martin & Halvorsen",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Loftus & Palmer",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Ross & Millsom",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Cole & Scribner",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Cole & Scribner (2)",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Walker",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Yuille & Cutshall",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Cahill",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Cahill (2)",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Phelps & Sharot",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Neisser & Harsch",
+        "Unit": "Cognitive"
+    },
+    {
+        "Name": "Weiss",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Sapolsky",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Marmot",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Loving",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Cohen",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Greenberg",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Taylor",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Loving (2)",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Davidson",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Oman",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Bauman",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Oberlin",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Volkow",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Shuckit",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Morgan",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Childress",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Childress (2)",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Olsen",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Gorini",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Lemstra",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Sandy Lake",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Philadelphia",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Stunkard",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Pima Indians",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Dhar",
+        "Unit": "Health"
+    },
+    {
+        "Name": "Cialdini",
+        "Unit": "Sociocultural"
+    },
+    {
+        "Name": "Smith and Bond",
+        "Unit": "Sociocultural"
+    },
+    {
+        "Name": "Kashima and Triandis",
+        "Unit": "Sociocultural"
+    },
+    {
+        "Name": "Steele and Aronson",
+        "Unit": "Sociocultural"
+    },
+    {
+        "Name": "Fagot",
+        "Unit": "Developmental"
+    }
+]

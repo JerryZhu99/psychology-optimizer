@@ -1,0 +1,337 @@
+[
+    {
+        "Question": "Explain how principles that define the cognitive level of analysis may be demonstrated in research.",
+        "Required": 2,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss how and why particular research methods are used at the cognitive level of analysis.",
+        "Required": 2,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss ethical considerations related to research studies at the cognitive level of analysis.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate schema theory with reference to relevant research studies.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate two models or theories of one cognitive process with reference to research studies.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Explain how biological factors may affect one cognitive process.",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss how social or cultural factors may affect one cognitive process.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "With reference to relevant research studies, to what extent is one cognitive process reliable?",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss the use of technology in investigating cognitive processes.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "To what extent do cognitive and biological factors interact in emotion?",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate one theory of how emotion may affect one cognitive process.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Describe stressors.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Outline two stressors. Evaluate one strategy for coping with stress.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss physiological aspects of stress",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss psychological aspects of stress",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss social aspects of stress",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss two aspects of stress (physiological, psychological, or social)",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate two strategies of coping with stress",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate the effectiveness of one strategy for coping with stress",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Explain factors related to the development of substance use or addictive behavior.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Examine treatments for substance abuse and addictive behavior.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Examine prevention strategies for substance abuse and addictive behavior.",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss factors related to overeating and the development of obesity",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss treatments for obesity",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss prevention strategies for obesity",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Discuss the effectiveness of health promotion strategies",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Examine models or theories of health promotion",
+        "Required": 2,
+        "Marks": 22
+    },
+    {
+        "Question": "To what extent do biological factors influence health related behavior?",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "To what extent do cognitive factors influence health related behavior?",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Evaluate psychological research (that is, theories and/or studies) relevant to health psychology",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Explain social learning theory, making reference to one relevant study",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Describe the use of one compliance technique",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline one factor that influences conformity",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Describe the role of one cultural dimension on behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Using one example, explain one etic or emic concept",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Describe the role of one situational and dispositional factor in explaining behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline two errors in attribution",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Describe one theory or study on the formation of stereotypes",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain how stereotypes affect behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline social identity theory",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline one (two) ethical consideration related to one research study at the sociocultural level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain how one particular research method is used at the sociocultural level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain why one particular research method is used at the sociocultural level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline how one principle that defines the sociocultural level of analysis may be demonstrated in research",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Define the terms culture and cultural norms",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain one study related to localization of function in the brain`",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain how one brain imaging technology can be used in investigating the relationship between biological factors and behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss the use of brain imaging technologies in investigating the relationship between biological factors and behaviour",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Using one example, explain the effects of neurotransmission on human behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Using one example, explain the effects of one/two hormones on human behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline one study which shows the interaction between cognition and physiology in terms of behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Examine the interaction between cognition and physiology in terms of behavior",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Describe one effect of the environment on physiological processes",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss two effects of the environment on physiological processes",
+        "Required": 2,
+        "Marks": 22
+    },
+    {
+        "Question": "Outline one principle the defines the biological level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain how principles that define the biological level of analysis may be demonstrated in research",
+        "Required": 2,
+        "Marks": 8
+    },
+    {
+        "Question": "Outline one ethical consideration related to research studies at the biological level of biological level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss ethical considerations related to research studies at the biological level of analysis",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Explain one evolutionary explanation of behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Examine one evolutionary explanation of behavior",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Using one research study, describe the influence genetic inheritance has on behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "With reference to relevant research studies, to what extent does genetic inheritance influence behavior?",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Describe one ethical consideration in research into genetic influences on behavior",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss ethical considerations related to research conducted into genetic influences on behavior",
+        "Required": 3,
+        "Marks": 22
+    },
+    {
+        "Question": "Explain how one research method is used at the biological level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Explain why one research method is used at the biological level of analysis",
+        "Required": 1,
+        "Marks": 8
+    },
+    {
+        "Question": "Discuss how and why particular research methods are used at the biological level of analysis",
+        "Required": 2,
+        "Marks": 22
+    }
+]
