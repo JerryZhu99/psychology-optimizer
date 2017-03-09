@@ -205,23 +205,11 @@
         ]
     },
     {
-        "Question": "Discuss psychological aspects of stress",
-        "Marks": 22,
-        "Required": 3,
-        "Unit":"Health",
-        "Studies": [
-            "Weiss",
-            "Sapolsky",
-            "Marmot"
-        ]
-    },
-    {
         "Question": "Discuss social aspects of stress",
         "Marks": 22,
         "Required": 3,
         "Unit":"Health",
         "Studies": [
-            "Weiss",
             "Sapolsky",
             "Marmot",
             "Loving"
@@ -243,6 +231,20 @@
     },
     {
         "Question": "Evaluate the effectiveness of one strategy for coping with stress",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Cohen",
+            "Greenberg",
+            "Taylor",
+            "Loving (2)",
+            "Davidson",
+            "Oman"
+        ]
+    },
+    {
+        "Question": "Evaluate two strategies of coping with stress",
         "Marks": 22,
         "Required": 3,
         "Unit":"Health",

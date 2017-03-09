@@ -4,16 +4,21 @@ angular.module("app", [])
     scope = $scope;
     $http.get('questions.json').then(function(data, status, headers, config) {
         $scope.questions = data.data;
+        $http.get('studies.json').then(function(data, status, headers, config) {
+            $scope.studies = data.data;
+            var s = localStorage.getItem('selected');
+            if(s){
+                $scope.studies = JSON.parse(s);
+            }
+            $scope.size = $scope.studies.length;
+            $scope.update();
+        }).catch(function(data, status, headers, config) {
+            console.log(data);
+        });
     }).catch(function(data, status, headers, config) {
         console.log(data);
     });
-    $http.get('studies.json').then(function(data, status, headers, config) {
-        $scope.studies = data.data;
-        $scope.size = $scope.studies.length;
-        $scope.update();
-    }).catch(function(data, status, headers, config) {
-        console.log(data);
-    });
+
     $scope.update = function(){
         for(var i=0;i<$scope.questions.length;i++){
             var question = $scope.questions[i];
@@ -36,6 +41,7 @@ angular.module("app", [])
                 question.status="danger";
             }
         }
+        localStorage.setItem('selected', JSON.stringify($scope.studies));
     }
     $scope.highlight = function(study, value){
         for(var i=0;i<$scope.questions.length;i++){
