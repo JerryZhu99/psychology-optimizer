@@ -42,7 +42,7 @@
                         </div>
                     </form>
                     <div class="list-group">
-                        <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in questions | filter:search">
+                        <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in questions | filter:search | orderBy:['Unit','Marks','Question']">
                             <span class="badge">{{question.num+'/'+question.Required}}</span>
                             <span>({{question.Marks}}) </span>{{question.Question}}
                         </a>
@@ -52,6 +52,9 @@
                     <form class="form">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Search..." ng-model="ssearch">
+                        </div>
+                        <div class="form-group">
+                            <p>{{total}}</p>
                         </div>
                         <div class="form-group" ng-repeat="study in studies | filter:ssearch">
                             <div class="checkbox">

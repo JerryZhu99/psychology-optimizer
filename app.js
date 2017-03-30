@@ -35,15 +35,18 @@ angular.module("app", [])
     });
     $scope.update = function(){
         for(var i=0;i<$scope.questions.length;i++){
+            var total = 0;
             var question = $scope.questions[i];
             var num = 0;
             for(var j=0;j<$scope.studies.length;j++){
                 if($scope.studies[j].selected){
+                    total++;
                     if(question.Studies.indexOf($scope.studies[j].Name)>=0){
                         num++;
                     }
                 }
             }
+            $scope.total = total;
             console.log(num);
             question.number = num;
             question.num = num;

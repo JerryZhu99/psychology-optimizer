@@ -67,9 +67,33 @@
         ]
     },
     {
+        "Question": "Describe schema theory making reference to one research study.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Ross & Millsom"
+        ]
+    },
+    {
         "Question": "Evaluate two models or theories of one cognitive process with reference to research studies.",
         "Marks": 22,
         "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Yuille & Cutshall",
+            "Cahill",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Outline one model or theory of one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
         "Unit":"Cognitive",
         "Studies": [
             "Yuille & Cutshall",
@@ -99,9 +123,37 @@
         ]
     },
     {
+        "Question": "Describe how one social or cultural factor can affect one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
+            "Cole & Scribner (2)"
+        ]
+    },
+    {
         "Question": "With reference to relevant research studies, to what extent is one cognitive process reliable?",
         "Marks": 22,
         "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Anderson & Pichert",
+            "Martin & Halvorsen",
+            "Loftus & Palmer",
+            "Walker",
+            "Yuille & Cutshall",
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Explain the reliability of one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
         "Unit":"Cognitive",
         "Studies": [
             "Anderson & Pichert",
@@ -128,6 +180,18 @@
         ]
     },
     {
+        "Question": "Outline one technology used in investigating one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Walker",
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot"
+        ]
+    },
+    {
         "Question": "To what extent do cognitive and biological factors interact in emotion?",
         "Marks": 22,
         "Required": 3,
@@ -139,9 +203,31 @@
         ]
     },
     {
+        "Question": "Describe one study that shows how cognitive and biological factors interact in emotion.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Cahill",
+            "Cahill (2)",
+            "Phelps & Sharot"
+        ]
+    },
+    {
         "Question": "Evaluate one theory of how emotion may affect one cognitive process.",
         "Marks": 22,
         "Required": 3,
+        "Unit":"Cognitive",
+        "Studies": [
+            "Yuille & Cutshall",
+            "Phelps & Sharot",
+            "Neisser & Harsch"
+        ]
+    },
+    {
+        "Question": "Describe one study that shows how emotion may affect one cognitive process.",
+        "Marks": 8,
+        "Required": 1,
         "Unit":"Cognitive",
         "Studies": [
             "Yuille & Cutshall",
