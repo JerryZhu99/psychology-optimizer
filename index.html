@@ -1,71 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Psychology Study Optimizer</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Psychology Study Optimizer</title>
+    <base href="/">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="angular.min.js" charset="utf-8"></script>
+    <script src="angular-route.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
     <script src="app.js" charset="utf-8"></script>
-    <body ng-app="app" ng-controller="editor">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        IB Psychology Study Optimizer
-                    </a>
-                </div>
+</head>
+<body ng-app="app" ng-controller="main">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" ng-click="isNavCollapsed = !isNavCollapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    IB Psychology Study Optimizer
+                </a>
             </div>
-        </nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>Psychology Optimizer</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <form class="form">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" placeholder="Search..." ng-model="search.$">
-                            </div>
-                            <div class="col-sm-6">
-                                <select class="form-control" ng-model="search.Unit">
-                                    <option value="">All</option>
-                                    <option value="Cognitive">Cognitive</option>
-                                    <option value="Sociocultural">Sociocultural</option>
-                                    <option value="Biological">Biological</option>
-                                    <option value="Health">Health</option>
-                                </select>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="list-group">
-                        <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in questions | filter:search | orderBy:['Unit','Marks','Question']">
-                            <span class="badge">{{question.num+'/'+question.Required}}</span>
-                            <span>({{question.Marks}}) </span>{{question.Question}}
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <form class="form">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search..." ng-model="ssearch">
-                        </div>
-                        <div class="form-group">
-                            <p>{{total}}</p>
-                        </div>
-                        <div class="form-group" ng-repeat="study in studies | filter:ssearch">
-                            <div class="checkbox">
-                                <label ng-mouseover="highlight(study,true)" ng-mouseleave="highlight(study,false)">
-                                    <input type="checkbox" ng-model="study.selected" ng-change="update()">{{study.Name}}
-                                </label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+                <ul class="nav navbar-nav">
+                    <li><a href="#!/studies">Studies</a></li>
+                </ul>
             </div>
         </div>
-    </body>
+    </nav>
+    <div class="container">
+        <div ng-view></div>
+    </div>
+</body>
 </html>

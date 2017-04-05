@@ -1,7 +1,13 @@
 [
     {
         "Name": "Anderson & Pichert",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"To investigate if schema processing influences encoding and retrieval of information.",
+        "Method":"Experiment, with IV being the schema given, burglar or house buyer, and DV being the recall of details in the story.",
+        "Procedure":"Participants were given a schema, burglar or house buyer. They were told a story, and then given a 12 min distraction task. They were then asked to recall the story, and given another distraction task. Half were then given the other schema and asked to recall the story again.",
+        "Results":"Participants in changed schema had recalled  7% more points in second recall. This shows that schema has an effect on encoding and retrieval.",
+        "Strengths":"This study has a cause-effect relationship, maximum control over variables, and established statistical significance.",
+        "Limitations":"This study has no ecological validity, and participants recalled irrelevant information"
     },
     {
         "Name": "Martin & Halvorsen",
@@ -13,7 +19,13 @@
     },
     {
         "Name": "Ross & Millsom",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"To see if Ghanian people would remember spoken information better than American people.",
+        "Method":"Experiment, with IV being the way information was learned in their culture, visually for Americans and orally for Ghanians, and DV being the words in the story recalled.",
+        "Procedure":"American and Ghanian university students were orally told \"War of the Ghosts\" twice. After waiting 16 days, they were asked to write down what they remembered.",
+        "Results":"The university students from Ghana recalled more of the themes and words of the story, as they learned orally. This shows how culture influences memory.",
+        "Strengths":"This study has ecological validity as they were in a school environment, was culturally diverse, and has a cause and effect relationship.",
+        "Limitations":"This study only included university students."
     },
     {
         "Name": "Cole & Scribner",
@@ -25,7 +37,13 @@
     },
     {
         "Name": "Walker",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"To see the effect of sleep deprivation on memory.",
+        "Method":"Experiment, with IV being a night of sleep or none for 35 hours",
+        "Procedure":"Participants were split into two groups, one received no sleep for 35 hours and the other received a normal night of sleep. The next day, they watched a slideshow with 150 slides while under an fMRI. After a night of sleep, they were shown again with new slides mixed in and asked to identify if they had seen the slides before.",
+        "Results":"Participants who slept first had more hippocampus activity in fMRI. Sleep deprived participants performed worse even with a night to catch up on sleep.",
+        "Strengths":"This study had maximum control and a cause and effect relationship.",
+        "Limitations":"This study had no ecological validity and a limited age group of 18-35 years."
     },
     {
         "Name": "Yuille & Cutshall",
@@ -33,7 +51,13 @@
     },
     {
         "Name": "Cahill",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"To determine the effect of emotionally arousing material on amygdala activity and amygdala activity on memory.",
+        "Method":"Experiment, with IV being the type of films shown, neutral or arousing, and DVs being amygala activities being long term retention",
+        "Procedure":"Adult males were shown a series of emotionally unpleasant films as well as neutral films. Their brain activities were monitored with PET.",
+        "Results":"Right amygdala activity was observed. Emotionally arousing images were remembered better.",
+        "Strengths":"This study used a PET scan. (Looked at both males and females, found gender difference)",
+        "Limitations":"This study has no ecological validity and no cross cultural validity (only white adults)."
     },
     {
         "Name": "Cahill (2)",
@@ -41,7 +65,13 @@
     },
     {
         "Name": "Phelps & Sharot",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Neisser & Harsch",
@@ -49,7 +79,13 @@
     },
     {
         "Name": "Weiss",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Sapolsky",

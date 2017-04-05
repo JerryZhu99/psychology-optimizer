@@ -1,0 +1,48 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h1>Psychology Optimizer</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-9">
+        <form class="form">
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" placeholder="Search..." ng-model="search.$">
+                </div>
+                <div class="col-sm-6">
+                    <select class="form-control" ng-model="search.Unit">
+                        <option value="">All</option>
+                        <option value="Cognitive">Cognitive</option>
+                        <option value="Sociocultural">Sociocultural</option>
+                        <option value="Biological">Biological</option>
+                        <option value="Health">Health</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <div class="list-group">
+            <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in $parent.questions | filter:search | orderBy:['Unit','Marks','Question']">
+                <span class="badge">{{question.num+'/'+question.Required}}</span>
+                <span>({{question.Marks}}) </span>{{question.Question}}
+            </a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <form class="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search..." ng-model="ssearch">
+            </div>
+            <div class="form-group">
+                <p>{{total}}</p>
+            </div>
+            <div class="form-group" ng-repeat="study in $parent.studies | filter:ssearch">
+                <div class="checkbox">
+                    <label ng-mouseover="highlight(study,true)" ng-mouseleave="highlight(study,false)">
+                        <input type="checkbox" ng-model="study.selected" ng-change="update()">{{study.Name}}
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

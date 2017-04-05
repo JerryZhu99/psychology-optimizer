@@ -108,7 +108,9 @@
         "Required": 1,
         "Unit":"Cognitive",
         "Studies": [
-            "Walker"
+            "Walker",
+            "Cahill",
+            "Phelps & Sharot"
         ]
     },
     {
@@ -611,6 +613,8 @@
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
             "Greenberg",
             "Sandy Lake",
             "Pima Indians",
@@ -627,6 +631,8 @@
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
             "Greenberg",
             "Sandy Lake",
             "Pima Indians",
@@ -643,6 +649,8 @@
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
             "Greenberg",
             "Sandy Lake",
             "Pima Indians",
@@ -659,6 +667,8 @@
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
             "Greenberg",
             "Sandy Lake",
             "Pima Indians",
@@ -675,6 +685,8 @@
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Ross & Millsom",
+            "Cole & Scribner",
             "Greenberg",
             "Sandy Lake",
             "Pima Indians",
