@@ -131,13 +131,13 @@ function($routeProvider, $locationProvider) {
             }
         }
 
-        $scope.cog8 = {status: cog8/cog8t==1?'bg-success':'bg-danger', text : "Cognitive:"+(cog8/cog8t*100).toFixed(0)+"%"};
-        $scope.soc8 = {status: soc8/soc8t==1?'bg-success':'bg-danger', text : "Sociocultural:"+(soc8/soc8t*100).toFixed(0)+"%"};
-        $scope.bio8 = {status: bio8/bio8t==1?'bg-success':'bg-danger', text : "Biological:"+(bio8/bio8t*100).toFixed(0)+"%"};
-        $scope.cog22 = {status: cog22/cog22t==1?'bg-success':'bg-danger', text : "Cognitive:"+(cog22/cog22t*100).toFixed(0)+"%"};
-        $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural:"+(soc22/soc22t*100).toFixed(0)+"%"};
-        $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological:"+(bio22/bio22t*100).toFixed(0)+"%"};
-        $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health:"+(hea22/hea22t*100).toFixed(0)+"%"};
+        $scope.cog8 = {status: cog8/cog8t==1?'bg-success':'bg-danger', text : "Cognitive 8pts:"+(cog8/cog8t*100).toFixed(0)+"%"};
+        $scope.soc8 = {status: soc8/soc8t==1?'bg-success':'bg-danger', text : "Sociocultural 8pts:"+(soc8/soc8t*100).toFixed(0)+"%"};
+        $scope.bio8 = {status: bio8/bio8t==1?'bg-success':'bg-danger', text : "Biological 8pts:"+(bio8/bio8t*100).toFixed(0)+"%"};
+        $scope.cog22 = {status: cog22/cog22t==1?'bg-success':'bg-danger', text : "Cognitive 22pts:"+(cog22/cog22t*100).toFixed(0)+"%"};
+        $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural 22pts:"+(soc22/soc22t*100).toFixed(0)+"%"};
+        $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological 22pts:"+(bio22/bio22t*100).toFixed(0)+"%"};
+        $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
 
     };
     $scope.update();
