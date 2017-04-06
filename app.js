@@ -74,14 +74,79 @@ function($routeProvider, $locationProvider) {
             }
         }
         localStorage.setItem('selected', JSON.stringify($scope.$parent.studies));
-    }
+        var cog8 = 0, soc8 = 0, bio8 = 0, cog22 = 0, soc22 = 0, bio22 = 0, hea22 = 0;
+        var cog8t = 0, soc8t = 0, bio8t = 0, cog22t = 0, soc22t = 0, bio22t = 0, hea22t = 0;
+        for(let i in $scope.$parent.questions){
+            var q = $scope.$parent.questions[i];
+            switch (q.Unit) {
+                case "Cognitive":
+                if(q.Marks == 8){
+                    cog8t++;
+                    if(q.number>=q.Required){
+                        cog8++;
+                    }
+                }else{
+                    cog22t++;
+                    if(q.number>=q.Required){
+                        cog22++;
+                    }
+                }
+                break;
+                case "Sociocultural":
+                if(q.Marks == 8){
+                    soc8t++;
+                    if(q.number>=q.Required){
+                        soc8++;
+                    }
+                }else{
+                    soc22t++;
+                    if(q.number>=q.Required){
+                        soc22++;
+                    }
+                }
+                break;
+                case "Biological":
+                if(q.Marks == 8){
+                    bio8t++;
+                    if(q.number>=q.Required){
+                        bio8++;
+                    }
+                }else{
+                    bio22t++;
+                    if(q.number>=q.Required){
+                        bio22++;
+                    }
+                }
+                break;
+                case "Health":
+                hea22t++;
+                if(q.number>=q.Required){
+                    hea22++;
+                }
+                break;
+                default:
+                console.log(q);
+
+                break;
+            }
+        }
+
+        $scope.cog8 = {status: cog8/cog8t==1?'bg-success':'bg-danger', text : "Cognitive:"+(cog8/cog8t*100).toFixed(0)+"%"};
+        $scope.soc8 = {status: soc8/soc8t==1?'bg-success':'bg-danger', text : "Sociocultural:"+(soc8/soc8t*100).toFixed(0)+"%"};
+        $scope.bio8 = {status: bio8/bio8t==1?'bg-success':'bg-danger', text : "Biological:"+(bio8/bio8t*100).toFixed(0)+"%"};
+        $scope.cog22 = {status: cog22/cog22t==1?'bg-success':'bg-danger', text : "Cognitive:"+(cog22/cog22t*100).toFixed(0)+"%"};
+        $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural:"+(soc22/soc22t*100).toFixed(0)+"%"};
+        $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological:"+(bio22/bio22t*100).toFixed(0)+"%"};
+        $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health:"+(hea22/hea22t*100).toFixed(0)+"%"};
+
+    };
     $scope.update();
     $scope.highlight = function(study, value){
         for(var i=0;i<$scope.$parent.questions.length;i++){
             var question = $scope.$parent.questions[i];
             if(question.Studies.indexOf(study.Name)>=0){
+                var num = 0;
                 if(value){
-                    var num = 0;
                     if(study.selected){
                         num = question.number - 1;
                     }else{
@@ -108,80 +173,82 @@ function($routeProvider, $locationProvider) {
                 }
             }
         }
-    }
+    };
 })
 .controller("studies",function($scope){
 
 })
 .controller("study",function($scope, $routeParams){
-    $scope.study = $scope.$parent.studies.find(function(study){return study.Name == $routeParams.name.split('_').join(' ')});
-    console.log($scope.study);
-})
-.controller("practice",function($scope, $http){
-    scope = $scope;
-    $scope.questions = [];
-    if(localStorage.getItem("paper"))$scope.questions = JSON.parse(localStorage.getItem("paper"));
-    $scope.generate = function(paper){
-        function randomFrom(array, n) {
-            var at = 0;
-            var tmp, current, top = array.length;
+    $scope.study = $scope.$parent.studies.find(function(study){
+            return study.Name == $routeParams.name.split('_').join(' ');
+        });
+        console.log($scope.study);
+    })
+    .controller("practice",function($scope, $http){
+        scope = $scope;
+        $scope.questions = [];
+        if(localStorage.getItem("paper"))$scope.questions = JSON.parse(localStorage.getItem("paper"));
+        $scope.generate = function(paper){
+            function randomFrom(array, n) {
+                var at = 0;
+                var tmp, current, top = array.length;
 
-            if(top) while(--top && at++ < n) {
-                current = Math.floor(Math.random() * (top - 1));
-                tmp = array[current];
-                array[current] = array[top];
-                array[top] = tmp;
+                if(top) while(--top && at++ < n) {
+                    current = Math.floor(Math.random() * (top - 1));
+                    tmp = array[current];
+                    array[current] = array[top];
+                    array[top] = tmp;
+                }
+
+                return array.slice(-n);
             }
-
-            return array.slice(-n);
-        }
-        console.log("generating");
-        switch (paper) {
-            case "1":
-            var q22cog = [];
-            var q22soc = [];
-            var q22bio = [];
-            var q8cog = [];
-            var q8soc = [];
-            var q8bio = [];
-            for(var index in $scope.$parent.questions){
-                var question = $scope.$parent.questions[index];
-                if(question.Unit == "Cognitive"){
-                    if(question.Marks == "8"){
-                        q8cog.push(question);
-                    }else{
-                        q22cog.push(question);
-                    }
-                }else if(question.Unit == "Sociocultural"){
-                    if(question.Marks == "8"){
-                        q8soc.push(question);
-                    }else{
-                        q22soc.push(question);
-                    }
-                }else if(question.Unit == "Biological"){
-                    if(question.Marks == "8"){
-                        q8bio.push(question);
-                    }else{
-                        q22bio.push(question);
+            console.log("generating");
+            switch (paper) {
+                case "1":
+                var q22cog = [];
+                var q22soc = [];
+                var q22bio = [];
+                var q8cog = [];
+                var q8soc = [];
+                var q8bio = [];
+                for(let index in $scope.$parent.questions){
+                    let question = $scope.$parent.questions[index];
+                    if(question.Unit == "Cognitive"){
+                        if(question.Marks == "8"){
+                            q8cog.push(question);
+                        }else{
+                            q22cog.push(question);
+                        }
+                    }else if(question.Unit == "Sociocultural"){
+                        if(question.Marks == "8"){
+                            q8soc.push(question);
+                        }else{
+                            q22soc.push(question);
+                        }
+                    }else if(question.Unit == "Biological"){
+                        if(question.Marks == "8"){
+                            q8bio.push(question);
+                        }else{
+                            q22bio.push(question);
+                        }
                     }
                 }
-            }
-            if(q22soc.length == 0)q22soc.push({Marks:22, Question: 'A sociocultural level of analysis question.',Unit:'Sociocultural'})
-            $scope.questions = randomFrom(q22cog,1).concat(randomFrom(q22soc,1),randomFrom(q22bio,1),randomFrom(q8cog,1),randomFrom(q8soc,1),randomFrom(q8bio,1));
-            break;
-            case "2":
-            var qs = [];
-            for(var index in $scope.$parent.questions){
-                var question = $scope.$parent.questions[index];
-                if(question.Unit == "Health"){
-                    qs.push(question);
+                if(q22soc.length === 0)q22soc.push({Marks:22, Question: 'A sociocultural level of analysis question.',Unit:'Sociocultural'});
+                $scope.questions = randomFrom(q22cog,1).concat(randomFrom(q22soc,1),randomFrom(q22bio,1),randomFrom(q8cog,1),randomFrom(q8soc,1),randomFrom(q8bio,1));
+                break;
+                case "2":
+                var qs = [];
+                for(let index in $scope.$parent.questions){
+                    let question = $scope.$parent.questions[index];
+                    if(question.Unit == "Health"){
+                        qs.push(question);
+                    }
                 }
+                $scope.questions = randomFrom(qs, 3);
+                break;
+                default:
+                break;
             }
-            $scope.questions = randomFrom(qs, 3);
-            break;
-            default:
-            break;
-        }
-        localStorage.setItem("paper",JSON.stringify($scope.questions));
-    };
-});
+            localStorage.setItem("paper",JSON.stringify($scope.questions));
+        };
+    });

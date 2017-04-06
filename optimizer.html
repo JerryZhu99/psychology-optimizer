@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-xs-12">
-        <h1>Psychology Optimizer</h1>
+        <h1>Study Optimizer</h1>
     </div>
 </div>
 <div class="row">
@@ -21,7 +21,31 @@
                 </div>
             </div>
         </form>
-        <div class="list-group" style="height: 75vh; overflow:scroll">
+        <p>
+            <div class="btn-group btn-group-justified">
+                <div class="btn-group">
+                    <button type="button" class="btn" ng-class="cog8.status" ng-click="search.$ = 8; search.Unit='Cognitive'">{{cog8.text}}</button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn" ng-class="soc8.status" ng-click="search.$ = 8; search.Unit='Sociocultural'">{{soc8.text}}</button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn" ng-class="bio8.status" ng-click="search.$ = 8; search.Unit='Biological'">{{bio8.text}}</button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn" ng-class="cog22.status" ng-click="search.$ = 22; search.Unit='Cognitive'">{{cog22.text}}</button>
+                </div>
+                <div class="btn-group">
+
+                    <button type="button" class="btn" ng-class="bio22.status" ng-click="search.$ = 22; search.Unit='Biological'">{{bio22.text}}</button>
+                </div>
+                <div class="btn-group">
+
+                    <button type="button" class="btn" ng-class="hea22.status" ng-click="search.$ = 22; search.Unit='Health'">{{hea22.text}}</button>
+                </div>
+            </div>
+        </p>
+        <div class="list-group" style="height: 80vh; overflow:scroll">
             <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in $parent.questions | filter:search | orderBy:['Unit','Marks','Question']">
                 <span class="badge">{{question.num+'/'+question.Required}}</span>
                 <span>({{question.Marks}}) </span>{{question.Question}}
@@ -36,7 +60,7 @@
             <div class="form-group">
                 <p>{{total}}</p>
             </div>
-            <div style="height: calc(75vh - 34px); overflow:scroll">
+            <div style="height: calc(80vh); overflow:scroll">
                 <div class="form-group" ng-repeat="study in $parent.studies | filter:ssearch">
                     <div class="checkbox">
                         <label ng-mouseover="highlight(study,true)" ng-mouseleave="highlight(study,false)">
