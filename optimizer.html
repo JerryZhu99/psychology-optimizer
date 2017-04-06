@@ -21,7 +21,7 @@
                 </div>
             </div>
         </form>
-        <div class="list-group">
+        <div class="list-group" style="height: 75vh; overflow:scroll">
             <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in $parent.questions | filter:search | orderBy:['Unit','Marks','Question']">
                 <span class="badge">{{question.num+'/'+question.Required}}</span>
                 <span>({{question.Marks}}) </span>{{question.Question}}
@@ -36,11 +36,13 @@
             <div class="form-group">
                 <p>{{total}}</p>
             </div>
-            <div class="form-group" ng-repeat="study in $parent.studies | filter:ssearch">
-                <div class="checkbox">
-                    <label ng-mouseover="highlight(study,true)" ng-mouseleave="highlight(study,false)">
-                        <input type="checkbox" ng-model="study.selected" ng-change="update()">{{study.Name}}
-                    </label>
+            <div style="height: calc(75vh - 34px); overflow:scroll">
+                <div class="form-group" ng-repeat="study in $parent.studies | filter:ssearch">
+                    <div class="checkbox">
+                        <label ng-mouseover="highlight(study,true)" ng-mouseleave="highlight(study,false)">
+                            <input type="checkbox" ng-model="study.selected" ng-change="update()">{{study.Name}}
+                        </label>
+                    </div>
                 </div>
             </div>
         </form>
