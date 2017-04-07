@@ -11,7 +11,13 @@
     },
     {
         "Name": "Martin & Halvorsen",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Loftus & Palmer",
@@ -53,7 +59,7 @@
         "Name": "Cahill",
         "Unit": "Cognitive",
         "Aim":"To determine the effect of emotionally arousing material on amygdala activity and amygdala activity on memory.",
-        "Method":"Experiment, with IV being the type of films shown, neutral or arousing, and DVs being amygala activities being long term retention",
+        "Method":"Experiment, with IV being the type of films shown, neutral or arousing, and DVs being amygala activity being long term memory",
         "Procedure":"Adult males were shown a series of emotionally unpleasant films as well as neutral films. Their brain activities were monitored with PET.",
         "Results":"Right amygdala activity was observed. Emotionally arousing images were remembered better.",
         "Strengths":"This study used a PET scan. (Looked at both males and females, found gender difference)",

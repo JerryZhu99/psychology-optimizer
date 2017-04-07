@@ -238,24 +238,6 @@
         ]
     },
     {
-        "Question": "Describe stressors.",
-        "Marks": 22,
-        "Required": 3,
-        "Unit":"Health",
-        "Studies": [
-            "Weiss",
-            "Sapolsky",
-            "Marmot",
-            "Loving",
-            "Cohen",
-            "Greenberg",
-            "Taylor",
-            "Loving (2)",
-            "Davidson",
-            "Oman"
-        ]
-    },
-    {
         "Question": "Outline two stressors. Evaluate one strategy for coping with stress.",
         "Marks": 22,
         "Required": 3,
@@ -550,16 +532,27 @@
         ]
     },
     {
-        "Question": "Using one example, explain one etic or emic concept.",
+        "Question": "Using one example, explain one etic concept.",
         "Marks": 8,
         "Required": 1,
         "Unit":"Sociocultural",
         "Studies": [
+            "Kashima & Triandis",
             "Ross & Millsom",
             "Cole & Scribner",
+            "Smith & Bond"
+        ]
+    },
+    {
+        "Question": "Using one example, explain one emic concept.",
+        "Marks": 8,
+        "Required": 1,
+        "Unit":"Sociocultural",
+        "Studies": [
             "Greenberg",
             "Sandy Lake",
-            "Pima Indians"
+            "Philadelphia",
+            "Mead"
         ]
     },
     {

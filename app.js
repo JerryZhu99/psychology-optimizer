@@ -32,7 +32,10 @@ function($routeProvider, $locationProvider) {
         return input.replace(new RegExp(from, 'g'), to);
     };
 })
-.controller("main",function($scope, $http){
+.controller("main",function($scope, $window, $location, $http){
+    $scope.$on('$viewContentLoaded', function(event) {
+        $window.ga('send', 'pageview', { page: $location.url() });
+    });
     scope = $scope;
     Promise.all([$http.get('questions.json'),$http.get('studies.json')]).then(function(response){
         $scope.questions = response[0].data;
@@ -186,75 +189,75 @@ function($routeProvider, $locationProvider) {
 })
 .controller("study",function($scope, $routeParams){
     $scope.study = $scope.$parent.studies.find(function(study){
-            return study.Name == $routeParams.name.split('_').join(' ');
-        });
-        console.log($scope.study);
-    })
-    .controller("practice",function($scope, $http){
-        scope = $scope;
-        $scope.questions = [];
-        if(localStorage.getItem("paper"))$scope.questions = JSON.parse(localStorage.getItem("paper"));
-        $scope.generate = function(paper){
-            function randomFrom(array, n) {
-                var at = 0;
-                var tmp, current, top = array.length;
-
-                if(top) while(--top && at++ < n) {
-                    current = Math.floor(Math.random() * (top - 1));
-                    tmp = array[current];
-                    array[current] = array[top];
-                    array[top] = tmp;
-                }
-
-                return array.slice(-n);
-            }
-            console.log("generating");
-            switch (paper) {
-                case "1":
-                var q22cog = [];
-                var q22soc = [];
-                var q22bio = [];
-                var q8cog = [];
-                var q8soc = [];
-                var q8bio = [];
-                for(let index in $scope.$parent.questions){
-                    let question = $scope.$parent.questions[index];
-                    if(question.Unit == "Cognitive"){
-                        if(question.Marks == "8"){
-                            q8cog.push(question);
-                        }else{
-                            q22cog.push(question);
-                        }
-                    }else if(question.Unit == "Sociocultural"){
-                        if(question.Marks == "8"){
-                            q8soc.push(question);
-                        }else{
-                            q22soc.push(question);
-                        }
-                    }else if(question.Unit == "Biological"){
-                        if(question.Marks == "8"){
-                            q8bio.push(question);
-                        }else{
-                            q22bio.push(question);
-                        }
-                    }
-                }
-                if(q22soc.length === 0)q22soc.push({Marks:22, Question: 'A sociocultural level of analysis question.',Unit:'Sociocultural'});
-                $scope.questions = randomFrom(q22cog,1).concat(randomFrom(q22soc,1),randomFrom(q22bio,1),randomFrom(q8cog,1),randomFrom(q8soc,1),randomFrom(q8bio,1));
-                break;
-                case "2":
-                var qs = [];
-                for(let index in $scope.$parent.questions){
-                    let question = $scope.$parent.questions[index];
-                    if(question.Unit == "Health"){
-                        qs.push(question);
-                    }
-                }
-                $scope.questions = randomFrom(qs, 3);
-                break;
-                default:
-                break;
-            }
-            localStorage.setItem("paper",JSON.stringify($scope.questions));
-        };
+        return study.Name == $routeParams.name.split('_').join(' ');
     });
+    console.log($scope.study);
+})
+.controller("practice",function($scope, $http){
+    scope = $scope;
+    $scope.questions = [];
+    if(localStorage.getItem("paper"))$scope.questions = JSON.parse(localStorage.getItem("paper"));
+    $scope.generate = function(paper){
+        function randomFrom(array, n) {
+            var at = 0;
+            var tmp, current, top = array.length;
+
+            if(top) while(--top && at++ < n) {
+                current = Math.floor(Math.random() * (top - 1));
+                tmp = array[current];
+                array[current] = array[top];
+                array[top] = tmp;
+            }
+
+            return array.slice(-n);
+        }
+        console.log("generating");
+        switch (paper) {
+            case "1":
+            var q22cog = [];
+            var q22soc = [];
+            var q22bio = [];
+            var q8cog = [];
+            var q8soc = [];
+            var q8bio = [];
+            for(let index in $scope.$parent.questions){
+                let question = $scope.$parent.questions[index];
+                if(question.Unit == "Cognitive"){
+                    if(question.Marks == "8"){
+                        q8cog.push(question);
+                    }else{
+                        q22cog.push(question);
+                    }
+                }else if(question.Unit == "Sociocultural"){
+                    if(question.Marks == "8"){
+                        q8soc.push(question);
+                    }else{
+                        q22soc.push(question);
+                    }
+                }else if(question.Unit == "Biological"){
+                    if(question.Marks == "8"){
+                        q8bio.push(question);
+                    }else{
+                        q22bio.push(question);
+                    }
+                }
+            }
+            if(q22soc.length === 0)q22soc.push({Marks:22, Question: 'A sociocultural level of analysis question.',Unit:'Sociocultural'});
+            $scope.questions = randomFrom(q22cog,1).concat(randomFrom(q22soc,1),randomFrom(q22bio,1),randomFrom(q8cog,1),randomFrom(q8soc,1),randomFrom(q8bio,1));
+            break;
+            case "2":
+            var qs = [];
+            for(let index in $scope.$parent.questions){
+                let question = $scope.$parent.questions[index];
+                if(question.Unit == "Health"){
+                    qs.push(question);
+                }
+            }
+            $scope.questions = randomFrom(qs, 3);
+            break;
+            default:
+            break;
+        }
+        localStorage.setItem("paper",JSON.stringify($scope.questions));
+    };
+});
