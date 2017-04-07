@@ -34,7 +34,8 @@ function($routeProvider, $locationProvider) {
 })
 .controller("main",function($scope, $window, $location, $http){
     $scope.$on('$viewContentLoaded', function(event) {
-        $window.ga('send', 'pageview', { page: $location.url() });
+        $window.ga('set','page', $location.url() );
+        $window.ga('send', 'pageview');
     });
     scope = $scope;
     Promise.all([$http.get('questions.json'),$http.get('studies.json')]).then(function(response){
