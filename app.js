@@ -1,6 +1,21 @@
 var scope;
-angular.module("app", ['ngRoute','ui.bootstrap','angulartics', 'angulartics.google.analytics'])
-.config(['$routeProvider', '$locationProvider',
+var deps = ['ngRoute','ui.bootstrap'];
+try{
+    angular.module('angulartics');
+    deps.push('angulartics');
+}catch(e){
+    console.error(e);
+}
+try{
+    angular.module('angulartics.google.analytics');
+    deps.push('angulartics.google.analytics');
+}catch(e){
+    console.error(e);
+}
+
+var app = angular.module("app", deps);
+
+app.config(['$routeProvider', '$locationProvider',
 function($routeProvider, $locationProvider) {
     $routeProvider
     .when('/', {
