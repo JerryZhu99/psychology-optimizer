@@ -1,5 +1,5 @@
 var scope;
-angular.module("app", ['ngRoute','ui.bootstrap'])
+angular.module("app", ['ngRoute','ui.bootstrap','angulartics', 'angulartics.google.analytics'])
 .config(['$routeProvider', '$locationProvider',
 function($routeProvider, $locationProvider) {
     $routeProvider
@@ -33,10 +33,7 @@ function($routeProvider, $locationProvider) {
     };
 })
 .controller("main",function($scope, $window, $location, $http){
-    $scope.$on('$viewContentLoaded', function(event) {
-        $window.ga('set','page', $location.url() );
-        $window.ga('send', 'pageview');
-    });
+
     scope = $scope;
     Promise.all([$http.get('questions.json'),$http.get('studies.json')]).then(function(response){
         $scope.questions = response[0].data;
