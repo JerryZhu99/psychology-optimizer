@@ -42,13 +42,16 @@ function($routeProvider, $locationProvider) {
             $scope.studies = JSON.parse(s);
         }
         $scope.size = $scope.studies.length;
+        if($scope.optimizer){
+            $scope.optimizer.update();
+            $scope.$apply();
+        }
     }).catch(function(response){
         console.log(response);
     });
 
 })
 .controller("optimizer",function($scope){
-    scope = $scope;
     $scope.update = function(){
         for(var i=0;i<$scope.$parent.questions.length;i++){
             var total = 0;
@@ -138,9 +141,12 @@ function($routeProvider, $locationProvider) {
         $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural 22pts:"+(soc22/soc22t*100).toFixed(0)+"%"};
         $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological 22pts:"+(bio22/bio22t*100).toFixed(0)+"%"};
         $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
-
     };
-    $scope.update();
+    if($scope.$parent.questions){
+        $scope.update();
+    }else{
+        $scope.$parent.optimizer = $scope;
+    }
     $scope.highlight = function(study, value){
         for(var i=0;i<$scope.$parent.questions.length;i++){
             var question = $scope.$parent.questions[i];
