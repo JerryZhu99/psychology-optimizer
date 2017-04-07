@@ -172,7 +172,7 @@
     {
         "Question": "Discuss the use of technology in investigating cognitive processes.",
         "Marks": 22,
-        "Required": 3,
+        "Required": 2,
         "Unit":"Cognitive",
         "Studies": [
             "Walker",
@@ -227,7 +227,7 @@
         ]
     },
     {
-        "Question": "Describe one study that shows how emotion may affect one cognitive process.",
+        "Question": "Describe one theory that shows how emotion may affect one cognitive process.",
         "Marks": 8,
         "Required": 1,
         "Unit":"Cognitive",
@@ -725,7 +725,7 @@
     {
         "Question": "Discuss the use of brain imaging technologies in investigating the relationship between biological factors and behaviour.",
         "Marks": 22,
-        "Required": 3,
+        "Required": 2,
         "Unit":"Biological",
         "Studies": [
             "Walker",
