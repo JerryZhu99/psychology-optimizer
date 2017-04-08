@@ -172,7 +172,7 @@ function($routeProvider, $locationProvider) {
         $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural 22pts:"+(soc22/soc22t*100).toFixed(0)+"%"};
         $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological 22pts:"+(bio22/bio22t*100).toFixed(0)+"%"};
         $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
-        $scope.dev22 = {status: dev22/(dev22t-2)>=1?'bg-success':'bg-danger', text : "Developmental 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
+        $scope.dev22 = {status: dev22/(dev22t-2)>=1?'bg-success':'bg-danger', text : "Developmental 22pts:"+(dev22/dev22t*100).toFixed(0)+"%"};
     };
     if($scope.$parent.questions){
         $scope.update();
