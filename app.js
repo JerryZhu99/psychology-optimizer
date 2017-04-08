@@ -85,7 +85,7 @@ function($routeProvider, $locationProvider) {
             var str = terms[s].trim();
             var found = false;
             var re = new RegExp(str, 'i');
-            found = (re.test(obj.Name) || re.test(obj.Marks) || re.test(obj.Studies.toString()));
+            found = (re.test(obj.Question) || re.test(obj.Marks)|| re.test(obj.Unit) || re.test(obj.Studies.toString()));
             if(!found)return false;
         }
         if($scope.search.Unit == obj.Unit ||!$scope.search.Unit){
