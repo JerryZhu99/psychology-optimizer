@@ -208,5 +208,53 @@
     {
         "Name": "Fagot",
         "Unit": "Developmental"
+    },
+    {
+        "Name": "Koluchova",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Rutter",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Genie",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Mahoney",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Engle",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Diamond",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Money",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Best et al.",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Mead",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Cauffman & Steinberg",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Ferron",
+        "Unit": "Developmental"
+    },
+    {
+        "Name": "Giedd",
+        "Unit": "Developmental"
     }
 ]

@@ -17,6 +17,7 @@
                         <option value="Sociocultural">Sociocultural</option>
                         <option value="Biological">Biological</option>
                         <option value="Health">Health</option>
+                        <option value="Developmental">Developmental</option>
                     </select>
                 </div>
             </div>
@@ -32,7 +33,10 @@
                 <div class="btn-group">
                     <button type="button" class="btn" ng-class="soc8.status" ng-click="search.$ = 8; search.Unit='Sociocultural'">{{soc8.text}}</button>
                 </div>
+                <div class="btn-group">
 
+                <button type="button" class="btn" ng-class="hea22.status" ng-click="search.$ = 22; search.Unit='Health'">{{hea22.text}}</button>
+            </div>
             </div>
             <div class="btn-group btn-group-justified">
                 <div class="btn-group">
@@ -43,8 +47,10 @@
                     <button type="button" class="btn" ng-class="bio22.status" ng-click="search.$ = 22; search.Unit='Biological'">{{bio22.text}}</button>
                 </div>
                 <div class="btn-group">
-
-                    <button type="button" class="btn" ng-class="hea22.status" ng-click="search.$ = 22; search.Unit='Health'">{{hea22.text}}</button>
+                    <button type="button" class="btn btn-disabled bg-danger">Sociocultural 22pts: 0%</button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn" ng-class="dev22.status" ng-click="search.$ = 22; search.Unit='Developmental'">{{dev22.text}}</button>
                 </div>
             </div>
         </p>

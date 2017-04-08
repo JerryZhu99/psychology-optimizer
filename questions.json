@@ -1071,5 +1071,182 @@
             "Pima Indians",
             "Dhar"
         ]
+    },
+    {
+        "Question": "To what extent do biological factors influence development?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Fagot",
+            "Koluchova",
+            "Rutter",
+            "Genie",
+            "Mahoney",
+            "Engle",
+            "Diamond",
+            "Money",
+            "Best et al.",
+            "Mead",
+            "Cauffman & Steinberg",
+            "Ferron"
+        ]
+    },
+    {
+        "Question": "To what extent do cognitive factors influence development?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Fagot",
+            "Koluchova",
+            "Rutter",
+            "Genie",
+            "Mahoney",
+            "Engle",
+            "Diamond",
+            "Money",
+            "Best et al.",
+            "Mead",
+            "Cauffman & Steinberg",
+            "Ferron"
+        ]
+    },
+    {
+        "Question": "To what extent do sociocultural factors influence development?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Fagot",
+            "Koluchova",
+            "Rutter",
+            "Genie",
+            "Mahoney",
+            "Engle",
+            "Diamond",
+            "Money",
+            "Best et al.",
+            "Mead",
+            "Cauffman & Steinberg",
+            "Ferron"
+        ]
+    },
+    {
+        "Question": "Evaluate psychological research (that is, theories and/or studies) relevant to developmental psychology.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Developmental",
+        "Studies": [
+            "Fagot",
+            "Koluchova",
+            "Rutter",
+            "Genie",
+            "Mahoney",
+            "Engle",
+            "Diamond",
+            "Money",
+            "Best et al.",
+            "Mead",
+            "Cauffman & Steinberg",
+            "Ferron"
+        ]
+    },
+    {
+        "Question": "Evaluate theories of cognitive development.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Koluchova",
+            "Mahoney",
+            "Engle"
+        ]
+    },
+    {
+        "Question": "Discuss how social and environmental factors may affect cognitive development.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Koluchova",
+            "Mahoney",
+            "Engle"
+        ]
+    },
+    {
+        "Question": "Examine attachment in childhood and its role in the subsequent formation of relationships.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Rutter",
+            "Genie",
+            "Koluchova"
+        ]
+    },
+    {
+        "Question": "Discuss potential effects of deprivation or trauma in childhood on later development.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Rutter",
+            "Genie",
+            "Koluchova"
+        ]
+    },
+    {
+        "Question": "Define resilience. Discuss strategies to build resilience.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Developmental",
+        "Studies": [
+            "Engle",
+            "Mahoney"
+        ]
+    },
+    {
+        "Question": "Discuss the formation and development of gender roles.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Mead",
+            "Best et al.",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Explain cultural variations in gender roles.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Mead",
+            "Best et al.",
+            "Fagot"
+        ]
+    },
+    {
+        "Question": "Describe adolescence. Discuss the relationship between physical change and development of identity during adolescence.",
+        "Marks": 22,
+        "Required": 2,
+        "Unit":"Developmental",
+        "Studies": [
+            "Cauffman & Steinberg",
+            "Ferron"
+        ]
+    },
+    {
+        "Question": "Describe adolescence.  Examine psychological research into adolescence.",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Developmental",
+        "Studies": [
+            "Cauffman & Steinberg",
+            "Ferron",
+            "Giedd"
+        ]
     }
 ]

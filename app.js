@@ -55,7 +55,16 @@ function($routeProvider, $locationProvider) {
         $scope.studies = response[1].data;
         var s = localStorage.getItem('selected');
         if(s){
-            $scope.studies = JSON.parse(s);
+            var studies = JSON.parse(s);
+            console.log(studies);
+            for(var i in studies){
+                var study = studies[i];
+                for(var j in $scope.studies){
+                    if($scope.studies[j].Name==study.Name){
+                        $scope.studies[j].selected = study.selected;
+                    }
+                }
+            }
         }
         $scope.size = $scope.studies.length;
         if($scope.optimizer){
@@ -93,8 +102,8 @@ function($routeProvider, $locationProvider) {
             }
         }
         localStorage.setItem('selected', JSON.stringify($scope.$parent.studies));
-        var cog8 = 0, soc8 = 0, bio8 = 0, cog22 = 0, soc22 = 0, bio22 = 0, hea22 = 0;
-        var cog8t = 0, soc8t = 0, bio8t = 0, cog22t = 0, soc22t = 0, bio22t = 0, hea22t = 0;
+        var cog8 = 0, soc8 = 0, bio8 = 0, cog22 = 0, soc22 = 0, bio22 = 0, hea22 = 0, dev22 = 0;
+        var cog8t = 0, soc8t = 0, bio8t = 0, cog22t = 0, soc22t = 0, bio22t = 0, hea22t = 0, dev22t = 0;
         for(let i in $scope.$parent.questions){
             var q = $scope.$parent.questions[i];
             switch (q.Unit) {
@@ -143,6 +152,12 @@ function($routeProvider, $locationProvider) {
                     hea22++;
                 }
                 break;
+                case "Developmental":
+                dev22t++;
+                if(q.number>=q.Required){
+                    dev22++;
+                }
+                break;
                 default:
                 console.log(q);
 
@@ -157,6 +172,7 @@ function($routeProvider, $locationProvider) {
         $scope.soc22 = {status: soc22/soc22t==1?'bg-success':'bg-danger', text : "Sociocultural 22pts:"+(soc22/soc22t*100).toFixed(0)+"%"};
         $scope.bio22 = {status: bio22/bio22t==1?'bg-success':'bg-danger', text : "Biological 22pts:"+(bio22/bio22t*100).toFixed(0)+"%"};
         $scope.hea22 = {status: hea22/(hea22t-2)>=1?'bg-success':'bg-danger', text : "Health 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
+        $scope.dev22 = {status: dev22/(dev22t-2)>=1?'bg-success':'bg-danger', text : "Developmental 22pts:"+(hea22/hea22t*100).toFixed(0)+"%"};
     };
     if($scope.$parent.questions){
         $scope.update();
@@ -259,14 +275,18 @@ function($routeProvider, $locationProvider) {
             $scope.questions = randomFrom(q22cog,1).concat(randomFrom(q22soc,1),randomFrom(q22bio,1),randomFrom(q8cog,1),randomFrom(q8soc,1),randomFrom(q8bio,1));
             break;
             case "2":
-            var qs = [];
+            var health = [];
+            var developmental = [];
             for(let index in $scope.$parent.questions){
                 let question = $scope.$parent.questions[index];
                 if(question.Unit == "Health"){
-                    qs.push(question);
+                    health.push(question);
+                }
+                if(question.Unit == "Developmental"){
+                    developmental.push(question);
                 }
             }
-            $scope.questions = randomFrom(qs, 3);
+            $scope.questions = randomFrom(health, 3).concat(randomFrom(developmental,3));
             break;
             default:
             break;
