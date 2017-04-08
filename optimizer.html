@@ -55,7 +55,7 @@
             </div>
         </p>
         <div class="list-group" style="height: 80vh; overflow:scroll">
-            <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in $parent.questions | filter:search | orderBy:['Unit','Marks','Question']">
+            <a class="list-group-item" ng-class="question.status?'list-group-item-'+question.status:'list-group-item-danger'" ng-repeat="question in $parent.questions | filter:searchFilter | orderBy:['Unit','Marks','Question']">
                 <span class="badge">{{question.num+'/'+question.Required}}</span>
                 <span>({{question.Marks}}) </span>{{question.Question}}
             </a>

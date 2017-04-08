@@ -77,6 +77,22 @@ function($routeProvider, $locationProvider) {
 
 })
 .controller("optimizer",function($scope){
+    $scope.searchFilter = function (obj) {
+        if(!$scope.search)return true;
+        if(!$scope.search.$)return true;
+        var terms = String($scope.search.$).split(",");
+        for(var s in terms){
+            var str = terms[s].trim();
+            var found = false;
+            var re = new RegExp(str, 'i');
+            found = (re.test(obj.Name) || re.test(obj.Marks) || re.test(obj.Studies.toString()));
+            if(!found)return false;
+        }
+        if($scope.search.Unit == obj.Unit ||!$scope.search.Unit){
+            return true;
+        }
+        return false;
+    };
     $scope.update = function(){
         for(var i=0;i<$scope.$parent.questions.length;i++){
             var total = 0;

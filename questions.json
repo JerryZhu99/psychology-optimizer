@@ -293,6 +293,10 @@
         "Required": 3,
         "Unit":"Health",
         "Studies": [
+            "Weiss",
+            "Sapolsky",
+            "Marmot",
+            "Loving",
             "Cohen",
             "Greenberg",
             "Taylor",
