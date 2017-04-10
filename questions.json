@@ -968,7 +968,7 @@
     {
         "Question": "With reference to relevant research studies, to what extent does genetic inheritance influence behavior?",
         "Marks": 22,
-        "Required": 3,
+        "Required": 2,
         "Unit":"Biological",
         "Studies": [
             "Oberlin",
@@ -991,7 +991,7 @@
     {
         "Question": "Discuss ethical considerations related to research conducted into genetic influences on behavior.",
         "Marks": 22,
-        "Required": 3,
+        "Required": 2,
         "Unit":"Biological",
         "Studies": [
             "Oberlin",

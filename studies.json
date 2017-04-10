@@ -136,8 +136,8 @@
         "Method":"Case study, involving naturalistic observation, correlation, and blood samples",
         "Procedure":"The researchers observed behavior and interactions between the baboons. They collected blood samples from different baboons (by blow gun tranquilizer). They then measured hormone levels of baboons with different stress levels, as well as heart rate and blood pressure.",
         "Results":"The amount of control baboons have influenced the amount of stress effects each baboon had. Baboons with higher control were less stressed and more healthy. This shows that social structure affects stress, as measured by increased cortisol, adrenaline, heart rate, and blood pressure.",
-        "Strengths":"",
-        "Limitations":""
+        "Strengths":"This study has ecological validity and was done over 30 years, making it longitudinal.",
+        "Limitations":"This study did not show a cause and effect relationship, and was not on humans."
     },
     {
         "Name": "Marmot",
@@ -220,12 +220,12 @@
     {
         "Name": "Oberlin",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the effect of beer consumption on dopamine release",
+        "Method":"Experiment, with IV being the type of drink consumed, their favorite beer or gatorade, and DV being amount of dopamine.",
+        "Procedure":"49 men were asked to drink half an ounce of their favorite beer and were PET scanned after. They were then asked to drink a small serving of Gatorade and PET scanned again.",
+        "Results":"Dopamine activity and craving came from beer but not Gatorade. Greater amounts of dopamine were measured for those with a family history of alcoholism. A small amount of beer overstimulated the brain's reward center, which caused them to want more beer.",
+        "Strengths":"This study used a PET Scan, had maximum control, and had cause and effect relationship.",
+        "Limitations":"This study has no ecological validity, and only men were used. Different beers could have different results."
     },
     {
         "Name": "Volkow",
@@ -240,12 +240,12 @@
     {
         "Name": "Shuckit",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the relationship between alcohol consumption and alcohol response.",
+        "Method":"Correlation, comparing alcohol consumption, brain waves and recognition of alcohol effects.",
+        "Procedure":"The participants were asked to drink one night of drinking in 10 minutes. The participants were then interviewed based on how they felt after drinking alcohol.",
+        "Results":"A lower response was correlated with more drinking, suggesting that they were not aware that they are drunk. Awareness of being drunk suggested the presence of a signaling gene. In addition, they found that the risk of alcoholism is greater if there is alcoholism in the family.",
+        "Strengths":"This study used both genders and measured brain waves.",
+        "Limitations":"This study had no ecological validity and a small sample size."
     },
     {
         "Name": "Morgan",
