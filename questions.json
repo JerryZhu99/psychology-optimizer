@@ -773,9 +773,9 @@
         ]
     },
     {
-        "Question": "Examine the interaction between cognition and physiology in terms of behavior.",
+        "Question": "Examine one interaction between cognition and physiology in terms of behavior.",
         "Marks": 22,
-        "Required": 3,
+        "Required": 2,
         "Unit":"Biological",
         "Studies": [
             "Cahill",
