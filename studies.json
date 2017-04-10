@@ -6,7 +6,7 @@
         "Method":"Experiment, with IV being the schema given, burglar or house buyer, and DV being the recall of details in the story.",
         "Procedure":"Participants were given a schema, burglar or house buyer. They were told a story, and then given a 12 min distraction task. They were then asked to recall the story, and given another distraction task. Half were then given the other schema and asked to recall the story again.",
         "Results":"Participants in changed schema had recalled  7% more points in second recall. This shows that schema has an effect on encoding and retrieval.",
-        "Strengths":"This study has a cause-effect relationship, maximum control over variables, and established statistical significance.",
+        "Strengths":"This study has a cause and effect relationship, maximum control over variables, and established statistical significance.",
         "Limitations":"This study has no ecological validity, and participants recalled irrelevant information"
     },
     {
@@ -21,7 +21,13 @@
     },
     {
         "Name": "Loftus & Palmer",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Ross & Millsom",
@@ -35,11 +41,23 @@
     },
     {
         "Name": "Cole & Scribner",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Cole & Scribner (2)",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Walker",
@@ -53,7 +71,13 @@
     },
     {
         "Name": "Yuille & Cutshall",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Cahill",
@@ -67,10 +91,6 @@
     },
     {
         "Name": "Cahill (2)",
-        "Unit": "Cognitive"
-    },
-    {
-        "Name": "Phelps & Sharot",
         "Unit": "Cognitive",
         "Aim":"",
         "Method":"",
@@ -80,11 +100,57 @@
         "Limitations":""
     },
     {
+        "Name": "Phelps & Sharot",
+        "Unit": "Cognitive",
+        "Aim":"To see how proximity affects memory and brain activity while recalling events of 9/11.",
+        "Method":"Correlation, comparing geographical location to details remembered and brain activity.",
+        "Procedure":"24 participants were told to recall their 9/11 experience while under an fMRI scan. They were also asked to recall a non 9/11 memory. They were then asked questions on memory vividness and emotional arousal.",
+        "Results":"Participants that were downtown, closest to 9/11, showed activity in the amygdala. Midtown participants showed activity in the hippocampus. Downtown participants had the most vivid memories. Hippocampus activity was shown when recalling non 9/11 memories.",
+        "Strengths":"This study had ecological validity and used fMRI.",
+        "Limitations":"This study has bidirectional ambiguity, no cause and effect, and no max control."
+    },
+    {
         "Name": "Neisser & Harsch",
-        "Unit": "Cognitive"
+        "Unit": "Cognitive",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Weiss",
+        "Unit": "Health",
+        "Aim":"To see if level of control influences development of ulcers.",
+        "Method":"Experiment, with IV being shocks without control, shocks with control, or no shock, and the DV being the development of ulcers,",
+        "Procedure":"Three rats were placed in boxes. One rat, the executive rat, receives electric shocks but can turn off the shock. The subordinate rat receives shocks but cannot turn off the shocks. The control rat is not shocked.",
+        "Results":"The executive rat has a lower chance of developing ulcers compared to the subordinate rat. The control rat did not develop ulcers. This is due to the element of contol in the stressor.",
+        "Strengths":"This study had maximum control and a cause and effect relationship.",
+        "Limitations":"This study has no ecological validity and used rats; the results may not apply to humans."
+    },
+    {
+        "Name": "Sapolsky",
+        "Unit": "Health",
+        "Aim":"To determine the effects of social stress on baboons.",
+        "Method":"Case study, involving naturalistic observation, correlation, and blood samples",
+        "Procedure":"The researchers observed behavior and interactions between the baboons. They collected blood samples from different baboons (by blow gun tranquilizer). They then measured hormone levels of baboons with different stress levels, as well as heart rate and blood pressure.",
+        "Results":"The amount of control baboons have influenced the amount of stress effects each baboon had. Baboons with higher control were less stressed and more healthy. This shows that social structure affects stress, as measured by increased cortisol, adrenaline, heart rate, and blood pressure.",
+        "Strengths":"",
+        "Limitations":""
+    },
+    {
+        "Name": "Marmot",
+        "Unit": "Health",
+        "Aim":"To see if the rankings in British civil service affect their health and stress.",
+        "Method":"Case study, involving interviews, looking at sick days, and measuring cortisol, adrenaline, heart rate, and blood pressure.",
+        "Procedure":"The researchers studied the health of workers of different ranks in the British civil service. They interviewed workers, collected blood samples, and measured blood pressure and heart rate.",
+        "Results":"The lower ranked workers had increased illness, cortisol, adrenaline, blood pressure, and heart rate. The amount of power or control one had influenced their level of stress, leading to sickness.",
+        "Strengths":"This study has ecological validity, was longitudinal with 28000 people over 4 years, workers had equal access to health care, and a strong relationship was found.",
+        "Limitations":"This study has no cause and effect relationship."
+    },
+    {
+        "Name": "Loving",
         "Unit": "Health",
         "Aim":"",
         "Method":"",
@@ -94,32 +160,44 @@
         "Limitations":""
     },
     {
-        "Name": "Sapolsky",
-        "Unit": "Health"
-    },
-    {
-        "Name": "Marmot",
-        "Unit": "Health"
-    },
-    {
-        "Name": "Loving",
-        "Unit": "Health"
-    },
-    {
         "Name": "Cohen",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Greenberg",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Taylor",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Loving (2)",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Davidson",
@@ -127,7 +205,13 @@
     },
     {
         "Name": "Oman",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Bauman",
@@ -135,126 +219,312 @@
     },
     {
         "Name": "Oberlin",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Volkow",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Shuckit",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Morgan",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Childress",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Childress (2)",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Olsen",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Gorini",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Lemstra",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Sandy Lake",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Philadelphia",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Stunkard",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Pima Indians",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Dhar",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Cialdini",
-        "Unit": "Sociocultural"
+        "Unit": "Sociocultural",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Smith and Bond",
-        "Unit": "Sociocultural"
+        "Unit": "Sociocultural",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Kashima and Triandis",
-        "Unit": "Sociocultural"
+        "Unit": "Sociocultural",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Steele and Aronson",
-        "Unit": "Sociocultural"
+        "Unit": "Sociocultural",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Fagot",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Koluchova",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Rutter",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Genie",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Mahoney",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Engle",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Diamond",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Money",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Best et al.",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Mead",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Cauffman & Steinberg",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Ferron",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     },
     {
         "Name": "Giedd",
-        "Unit": "Developmental"
+        "Unit": "Developmental",
+        "Aim":"",
+        "Method":"",
+        "Procedure":"",
+        "Results":"",
+        "Strengths":"",
+        "Limitations":""
     }
 ]
