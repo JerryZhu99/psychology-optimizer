@@ -120,7 +120,7 @@ function($routeProvider, $locationProvider) {
         localStorage.setItem('selected', JSON.stringify($scope.$parent.studies));
         var cog8 = 0, soc8 = 0, bio8 = 0, cog22 = 0, soc22 = 0, bio22 = 0, hea22 = 0, dev22 = 0;
         var cog8t = 0, soc8t = 0, bio8t = 0, cog22t = 0, soc22t = 0, bio22t = 0, hea22t = 0, dev22t = 0;
-        for(let i in $scope.$parent.questions){
+        for(var i in $scope.$parent.questions){
             var q = $scope.$parent.questions[i];
             switch (q.Unit) {
                 case "Cognitive":
@@ -265,8 +265,8 @@ function($routeProvider, $locationProvider) {
             var q8cog = [];
             var q8soc = [];
             var q8bio = [];
-            for(let index in $scope.$parent.questions){
-                let question = $scope.$parent.questions[index];
+            for(var index in $scope.$parent.questions){
+                var question = $scope.$parent.questions[index];
                 if(question.Unit == "Cognitive"){
                     if(question.Marks == "8"){
                         q8cog.push(question);
@@ -293,8 +293,8 @@ function($routeProvider, $locationProvider) {
             case "2":
             var health = [];
             var developmental = [];
-            for(let index in $scope.$parent.questions){
-                let question = $scope.$parent.questions[index];
+            for(var index in $scope.$parent.questions){
+                var question = $scope.$parent.questions[index];
                 if(question.Unit == "Health"){
                     health.push(question);
                 }
