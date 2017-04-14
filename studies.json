@@ -526,5 +526,15 @@
         "Results":"",
         "Strengths":"",
         "Limitations":""
+    },
+    {
+        "Name": "Als",
+        "Unit": "Developmental",
+        "Aim":"To determine if environment affects brain development",
+        "Method":"Experiment, IV: emulated womb environment or regular ICU DV: brain development",
+        "Procedure":"n=30, 14 control, 16 emulated womb. Womb had dark muffled sounds, quiet, skin on skin contact with mother, near mother's heat. Measured brain development with MRI, EEG, other tests such as sound and light response.",
+        "Results":"The experimental group had significantly better brain development in areas responsible for how the brain learns, functions. Therefore the quality of experience may affect brain development.",
+        "Strengths":"EV, sample size, c -> e, control, technology",
+        "Limitations":"American, cost, 9/11"
     }
 ]
