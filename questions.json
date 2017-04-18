@@ -466,6 +466,22 @@
         ]
     },
     {
+        "Question": "To what extent do sociocultural factors influence health related behavior?",
+        "Marks": 22,
+        "Required": 3,
+        "Unit":"Health",
+        "Studies": [
+            "Sapolsky",
+            "Marmot",
+            "Loving",
+            "Cohen",
+            "Taylor",
+            "Greenberg",
+            "Olsen",
+            "Morgan"
+        ]
+    },
+    {
         "Question": "Evaluate psychological research (that is, theories and/or studies) relevant to health psychology.",
         "Marks": 22,
         "Required": 3,
