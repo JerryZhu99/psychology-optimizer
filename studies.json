@@ -162,42 +162,42 @@
     {
         "Name": "Cohen",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see how social ties relate to immunity.",
+        "Method":"Correlation: Social ties and immunity.",
+        "Procedure":"276 healthy people were administered a cold virus and quarantined for 5 days. The researchers then checked for sick people and tested the amount of mucus developed.",
+        "Results":"Those with the most social ties produced less mucus and were less likely to get a cold.",
+        "Strengths":"Large sample size, relationships are real.",
+        "Limitations":"No ecological validity due to quarantine, no max control, no cause-effect."
     },
     {
         "Name": "Greenberg",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see why citizens of Roseto had good health despite obvious risk factors. \n To see the relationship between social support and health.",
+        "Method":"Case study, involving interviews, non-participant observation, and correlation between social support and health.",
+        "Procedure":"Took blood samples, interviews, and observation of their way of life. Neighbouring towns were observed to have similar lifestyles. Close knit families were observed.",
+        "Results":"Rosetans had fewer deaths from heart disease, lower crime rate and social assistance applications. Heart disease rates went up with increased Americanization, from the breaking down of social ties.",
+        "Strengths":"Ecological validity, large sample size.",
+        "Limitations":"No cause-effect, no max control, not common culture."
     },
     {
         "Name": "Taylor",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the relationship between gender and coping strategies.",
+        "Method":"Correlation, gender and method of coping with stress.",
+        "Procedure":"Meta-analysis",
+        "Results":"Women produced the hormone oxytocin and had a tend and befriend response. Men produced the hormone testosterone and had a fight or flight response.",
+        "Strengths":"Some ecological validity, researcher, data, and method triangulation, and many studies were looked at. ",
+        "Limitations":"No max control, no ecological validity"
     },
     {
         "Name": "Loving (2)",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if meditation during stressful times affects healing rate of blisters.",
+        "Method":"Experiment, IV: meditation or no meditation, DV: The rate of healing of blisters",
+        "Procedure":"Students with exams were given blisters. Half the students were asked to relieve stress in their own way and the other students were given meditation sessions. Students were given blisters during a more relaxing time as well.",
+        "Results":"People who meditated healed at the same rate as those who had no stress. Meditation led to faster healing due to less stress hormones - reduced fight or flight response.",
+        "Strengths":"Cause and effect, some ecological validity - real stress ",
+        "Limitations":"No ecological validity for blisters, no max control."
     },
     {
         "Name": "Davidson",
