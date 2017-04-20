@@ -5,11 +5,13 @@
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <div class="list-group">
-            <a ng-repeat="study in $parent.studies" ng-href="{{'#!/studies/'+(study.Name | replace:' ':'_')}}" class="list-group-item" ng-class="study.selected?'list-group-item-success':''">{{study.Name}}</a>
-        </div>
+        <form class="form form-inline">
+            <input type="text" class="form-control" placeholder="Search..." ng-model="search.$">
+        </form>
     </div>
     <div class="col-xs-12">
-
+        <div class="list-group">
+            <a ng-repeat="study in $parent.studies | filter:search" ng-href="{{'#!/studies/'+(study.Name | replace:' ':'_')}}" class="list-group-item" ng-class="study.selected?'list-group-item-success':''">{{study.Name}}</a>
+        </div>
     </div>
 </div>
