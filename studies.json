@@ -152,12 +152,12 @@
     {
         "Name": "Loving",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if stressful relationships affect healing rates.",
+        "Method":"Correlation: Relationships of couples to healing of the blisters.",
+        "Procedure":"92 married couples. Participants were given 6 blisters on their forearms (In a married couple). Participants were given a short quiz on what they agree about their partner. Blood samples were taken to measure stress levels as couples argue.",
+        "Results":"Stressed couples had higher cortisol levels, especially women. Couples in “stressful relationships” had their blisters heal slower.",
+        "Strengths":"Real relationships and situations, large sample size, compared blood sample to blood sample before blisters and arguing.",
+        "Limitations":"No ecological validity, physical harm, given blisters, using needles – Informed consent needed."
     },
     {
         "Name": "Cohen",
@@ -260,12 +260,12 @@
     {
         "Name": "Childress",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the amount of activity in brain’s reward pathway when nature and drug videos are shown.",
+        "Method":"Experiment, IV: videos shown (nature, drug usage), DV: activity in brain’s reward pathway",
+        "Procedure":"Asked long term cocaine addicts that have been clean for 2 weeks to participate. They were shown films while in PET scan of either nature or cocaine use. Researchers examined brain activity.",
+        "Results":"Video of drug usage resulted in more brain activity in reward pathways than nature videos. The drug environment creates anticipation or desire.",
+        "Strengths":"PET scan, Max Control, Cause-Effect",
+        "Limitations":"No ecological validity, ethics"
     },
     {
         "Name": "Childress (2)",
@@ -290,52 +290,52 @@
     {
         "Name": "Gorini",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To evaluate the impact of the ban on smoking in enclosed public spaces in Italy, 2005.",
+        "Method":"Case study",
+        "Procedure":"Surveys are conducted among Italian population towners of hospitality. Measured environmental nicotine concentrations in air. Investigated total cigarette sales per year.",
+        "Results":"Survey shows that ban was respected. Nicotine concentration in air decreased. Smoking usage decreased from 2004 to 2006.",
+        "Strengths":"Ecological Validity",
+        "Limitations":"No cause-effect, no max control, no cross cultural validity."
     },
     {
         "Name": "Lemstra",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To determine the effect of smoking ban on heart attack rate, to determine if the new legislation altered population based smoking prevalence, to measure public support for the public smoking ban.",
+        "Method":"Case study",
+        "Procedure":"Reviewed all hospital discharges for heart attacks from July 2000 to June 2005. Reviewed CCHS Survey info on smoking prevalence in Saskatoon, Saskatchewan+ Canada. Contacted 1255 Saskatoon residents by telephone to determine support for smoking ban.",
+        "Results":"Heart attack rate went down in Saskatchewan. Smoking prevalence in Saskatoon went down. No change in smoking prevalence in Saskatchewan. 79% of Saskatoon residents believed the smoking ban was a good idea.",
+        "Strengths":"Ecological validity, large sample size.",
+        "Limitations":"No max control, no cause-effect, no cross cultural validity."
     },
     {
         "Name": "Sandy Lake",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if community made change in lifestyle (walking, healthy food, etc) will influence the number of people with type 2 diabetes.",
+        "Method":"Case Study",
+        "Procedure":"Observed community.\n Built walking trails. \n Arranged community wide events such as poker walk which involved walking on trails. \nHad healthier foods in school. \n Talked on radio to raise awareness in diabetes.\n Grocery stores: healthy foods on end of aisles, more healthy foods.",
+        "Results":"Decrease in number of people with diabetes. Healthier lifestyle influences number of people with diabetes. Kids spent less hours watching tv, playing videogames. Community efforts paid off.",
+        "Strengths":"Ecological validity, large sample size, longitudinal.",
+        "Limitations":"No max control, no cause-effect, no cross cultural validity."
     },
     {
         "Name": "Philadelphia",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To reduce obesity rates in schools by promoting healthy eating",
+        "Method":"Case Study",
+        "Procedure":"Replaced unhealthy options (pop/candy/chips) with healthier alternatives (juice/fruit). After school programs (Healthy eating club). Included in the curriculum.Influenced community to have healthier options (corner stores) for kids. Corner stores got educated on healthier food and nutritional values. Grocery stores gave free bus ride to people who didn’t have the transportation. Kids section was included in the store with healthier food. Provided training for product placement, supplies and refrigeration for corner stores. Grocery stores added nutrition label besides price tag.",
+        "Results":"Found positive results (with community). Healthy eating food program in stores was found to be successful in fighting against obesity. Affordable, healthy, and convenient food provided for the community. Increased knowledge of nutritional value because of product tags. Healthy food was still profitable for grocer. Program was expanded to other states.",
+        "Strengths":"Ecological validity, large sample size.",
+        "Limitations":"No cause and effect, no max control, expensive at the start - needs investment."
     },
     {
         "Name": "Stunkard",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To investigate the relative role of genes and environment on body mass index",
+        "Method":"Correlation",
+        "Procedure":"Compared BMI of 93 pairs of identical twins. Average age 58, separated at birth",
+        "Results":"Found that 66-70% of twins had similar body mass index, seen as due to genetic factors. For those twins who were slim, genetics played a greater role. Genes affect chance of becoming obese (but no cause-effect). Genes can affect the number of fat cells, metabolism. Not just genetics causing obesity epidemic; genetic makeup cannot change that rapidly.",
+        "Strengths":"Ecological validity.",
+        "Limitations":"No cause-effect, no max control, age – longer exposure to different environment."
     },
     {
         "Name": "Pima Indians",
