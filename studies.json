@@ -215,7 +215,13 @@
     },
     {
         "Name": "Bauman",
-        "Unit": "Health"
+        "Unit": "Health",
+        "Aim": "To see what effect parents smoking have on their children.",
+        "Method": "Correlation",
+        "Procedure": "Looked at smoking behaviour of children (US ages 12-14) with parents who do/don't smoke.",
+        "Results": "For parents who smoked, 50% of children tried smoking. For parents who didn’t smoke, 20% tried smoking. (other research) Twice as likely if their father smoked.",
+        "Strengths": "Ecological validity",
+        "Limitations": "No max control, no cause and effect, no cultural validity. (Other research) what about mothers?"
     },
     {
         "Name": "Oberlin",
@@ -230,12 +236,12 @@
     {
         "Name": "Volkow",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if there was a relationship between methamphetamine use and dopamine receptors.",
+        "Method":"Correlation, meth use and availability of dopamine receptors.",
+        "Procedure":"PET Scanned 35 people; 15 meth abusers, 20 non-meth abusers to assess availability of dopamine receptors.",
+        "Results":"Meth-abusers had significantly less dopamine receptor activity than control",
+        "Strengths":"PET scan",
+        "Limitations":"No Cause-Effect, only men, no max control, no ecological validity."
     },
     {
         "Name": "Shuckit",
@@ -250,12 +256,12 @@
     {
         "Name": "Morgan",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the relationship between the social rank and cocaine intake in monkeys.",
+        "Method":"Correlation: Social rank, cocaine intake.",
+        "Procedure":"Monkeys individually housed, moved to socially housed. PET scan before and after 3 months. Social hierarchy was observed; dominant and subordinate monkeys identified. Monkeys were given the option to self-administer cocaine by pressing a lever.",
+        "Results":"Dominant monkeys had more dopamine receptor function; more pleasure; 22%, subordinate had no change. Subordinate monkeys self-administered cocaine more often (twice as much)",
+        "Strengths":"PET scan",
+        "Limitations":"No ecological validity, no max control, no cause-effect. Does this apply to humans?"
     },
     {
         "Name": "Childress",
@@ -270,22 +276,22 @@
     {
         "Name": "Childress (2)",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the amount of activity in brain’s reward pathway when nature and drug videos are shown while using baclofen",
+        "Method":"Experiment: IV: videos shown (nature, drug usage), DV: activity in brain’s reward pathway.",
+        "Procedure":"Asked long term cocaine addicts that have been clean for 2 weeks to participate. Baclofen was given. Showed films while in PET scan - nature or cocaine use. Examined brain activity. ",
+        "Results":"Video of drug usage resulted in no difference in brain activity in reward pathways than nature videos when using baclofen",
+        "Strengths":"PET scan, max control, cause-effect",
+        "Limitations":"No ecological validity, ethics."
     },
     {
         "Name": "Olsen",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the effectiveness of smoking cessation interventions in real life settings.",
+        "Method":"Case Study, interview, measured carbon monoxide concentration. Given drug Zyban.",
+        "Procedure":"N=2090.\n 10-12 smokers met with the counsellor for 5 two hour sessions for each month. First two sessions spent planning for smoking cessation. \nParticipants completed a nicotine addiction test and were introduced to nicotine replacement therapy and the drug “Zyban”. \nSome participants had exhaled carbon monoxide concentration levels measured at each session. \n After certain time periods (3 days, 10 days, and 3 weeks) participants had their last sessions.\nCalculated rate of continued abstinence after 6 months.",
+        "Results":"After 6 months – 18% abstinent. \nAfter 12 months – only 16% abstinent. \nGender, age, & nicotine addiction were determining factors of abstinence.\nParticipants in group based interventions & in cessation interventions more likely to remain abstinent.",
+        "Strengths":"Real life Setting – EV, large sample size, low cost.",
+        "Limitations":"No cause-effect, loss of data - dropouts."
     },
     {
         "Name": "Gorini",
@@ -340,22 +346,22 @@
     {
         "Name": "Pima Indians",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the relationship between lifestyle/environment and obesity.",
+        "Method":"Case Study / Correlation",
+        "Procedure":"Compared two different branches of Pima Indians, American lifestyle vs indigenous lifestyle.Observed hospital records, diet, exercise hours.",
+        "Results":"The Sierra Madre inhabitants almost no obesity, diabetes, and they were healthier, and 60lbs lighter on average.Pima Indians had high rates of obesity, type 2 diabetes.",
+        "Strengths":"Ecological validity, cross cultural validity.",
+        "Limitations":"No cause-effect, no max control."
     },
     {
         "Name": "Dhar",
         "Unit": "Health",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the relationship between fast food advertisement and obesity.",
+        "Method":"Correlation",
+        "Procedure":"Compared obesity rates of francophone Quebec’s 32 year ban of fast food advertising directed at children in print and electronic media to the rest of the country.",
+        "Results":"Quebec had lower obesity rates, lower fast food consumption. Age 12-17 significantly lower than national average.",
+        "Strengths":"Ecological validity.",
+        "Limitations":"No max control, no cause-effect, hard to regulate today because internet."
     },
     {
         "Name": "Cialdini",
