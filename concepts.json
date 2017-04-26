@@ -1,0 +1,132 @@
+[
+    {
+        "Name": "Schema Theory",
+        "Unit": ["Cognitive"],
+        "Category": "Theory"
+    },
+    {
+        "Name": "Flashbulb Memory",
+        "Unit": ["Cognitive"],
+        "Category": "Theory"
+    },
+    {
+        "Name": "Le Doux's Model",
+        "Unit": ["Cognitive"],
+        "Category": "Model"
+    },
+    {
+        "Name": "PET",
+        "Unit": ["Cognitive", "Biological"],
+        "Category": "Technology"
+    },
+    {
+        "Name": "fMRI",
+        "Unit": ["Cognitive", "Biological"],
+        "Category": "Technology"
+    },
+    {
+        "Name": "GAS Model",
+        "Unit": ["Health"],
+        "Category": "Model"
+    },
+    {
+        "Name": "Fight-Flight Response",
+        "Unit": ["Health"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Adrenaline",
+        "Unit": ["Health", "Biological"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Cortisol",
+        "Unit": ["Health", "Biological"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Dopamine",
+        "Unit": ["Health", "Biological"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Social Learning Theory",
+        "Unit": ["Health", "Sociocultural", "Developmental"],
+        "Category": "Theory"
+    },
+    {
+        "Name": "Health Promotion Strategies",
+        "Unit": ["Health"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Health Belief Model",
+        "Unit": ["Health"],
+        "Category": "Model"
+    },
+    {
+        "Name": "Stages of Change Model",
+        "Unit": ["Health"],
+        "Category": "Model"
+    },
+    {
+        "Name": "Cultural Dimensions",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Conformity",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Etic & Emic Approaches",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Situational and Dispositional Factors",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Attribution Errors",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Stereotypes",
+        "Unit": ["Sociocultural"],
+        "Category": "Concept"
+    },
+    {
+        "Name": "Social Identity Theory",
+        "Unit": ["Sociocultural"],
+        "Category": "Theory"
+    },
+    {
+        "Name": "Cognitive Principles",
+        "Unit": ["Cognitive"],
+        "Category": "Principles"
+    },
+    {
+        "Name": "Sociocultural Principles",
+        "Unit": ["Sociocultural"],
+        "Category": "Principles"
+    },
+    {
+        "Name": "Biological Principles",
+        "Unit": ["Biological"],
+        "Category": "Principles"
+    },
+    {
+        "Name": "Ethical Considerations",
+        "Unit": ["Cognitive", "Biological", "Sociocultural"],
+        "Category": "Ethics"
+    },
+    {
+        "Name": "Genetics & Ethical Considerations",
+        "Unit": ["Biological"],
+        "Category": "Ethics"
+    }
+]

@@ -1,5 +1,5 @@
 var scope;
-var deps = ['ngRoute','ui.bootstrap'];
+var deps = ['ngRoute','ngSanitize','ui.bootstrap'];
 try{
     angular.module('angulartics');
     deps.push('angulartics');
@@ -29,6 +29,14 @@ function($routeProvider, $locationProvider) {
     .when('/studies/:name', {
         templateUrl: 'study.html',
         controller: 'study'
+    })
+    .when('/concepts', {
+        templateUrl: 'concepts.html',
+        controller: 'concepts',
+    })
+    .when('/concepts/:name', {
+        templateUrl: 'concept.html',
+        controller: 'concept'
     })
     .when('/practice/', {
         templateUrl: 'practice.html',
@@ -237,6 +245,26 @@ function($routeProvider, $locationProvider) {
         return study.Name == $routeParams.name.split('_').join(' ');
     });
     console.log($scope.study);
+})
+.controller("concepts",function($scope, $http){
+    $http.get('concepts.json').then(function(response){
+        $scope.concepts = response.data;
+    });
+})
+.controller("concept",function($scope, $http, $routeParams){
+    $http.get('concepts.json').then(function(response){
+        $scope.concepts = response.data;
+        $scope.concept = $scope.concepts.find(function(concept){
+            return concept.Name == $routeParams.name.split('_').join(' ');
+        });
+        $http.get("concepts/" + $scope.concept.Name.split(' ').join('_') + ".md").then(function(response){
+            $scope.content = markdown.toHTML(response.data);
+        }).catch(function(response){
+            $scope.content = "<h1>"+$scope.concept.Name+"</h1> \n <p>Missing data</p>";
+        });
+    });
+
+    console.log($scope.concept);
 })
 .controller("practice",function($scope, $http){
     scope = $scope;

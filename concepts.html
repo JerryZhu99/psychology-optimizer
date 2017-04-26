@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h1>Psychology Concepts</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <form class="form form-inline">
+            <input type="text" class="form-control" placeholder="Search..." ng-model="search.$">
+        </form>
+    </div>
+    <div class="col-xs-12">
+        <div>
+            <a ng-repeat="concept in concepts | filter:search" ng-href="{{'#!/concepts/'+(concept.Name | replace:' ':'_')}}" class="list-group-item">{{concept.Name}}</a>
+        </div>
+    </div>
+</div>
