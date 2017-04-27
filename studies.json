@@ -12,22 +12,22 @@
     {
         "Name": "Martin & Halvorsen",
         "Unit": "Cognitive",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To determine whether or not gender schemas affect the cognitive process of memory.",
+        "Method":"Experiment, IV: Gender schema, DV: How info is remembered.",
+        "Procedure":"Showed pictures to boys and girls, which either fit or did not fit gender schema (e.g. girl with doll or girl with gun). Waited a week, then asked to recall the images.",
+        "Results":"Children remembered pictures that were consistent with gender schemas; distorted memories of gender inconsistent schema.",
+        "Strengths":"Explains why gender roles dont change after high school. Cause-effect, less demand characteristics.",
+        "Limitations":"No cross-cultural validity, not possible to know how and why gender schemas develop. Limited ecological validity."
     },
     {
         "Name": "Loftus & Palmer",
         "Unit": "Cognitive",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if changing one word in certain critical questions would affect speed estimate",
+        "Method":"Experiment, IV: The word; smashed, collided, bumped, contacted, hit. DV: speed",
+        "Procedure":"Participants were shown a video of a car crash. They were asked the critical question, How fast were they going when they (smashed, collided, bumped, contacted, hit)",
+        "Results":"Use of different verbs activate different schemas in memory. Smashed had the highest speed estimate, contacted had the lowest.",
+        "Strengths":"Cause-effect, max control.",
+        "Limitations":"No ecological validity. No cross-cultural validity - all American university students."
     },
     {
         "Name": "Ross & Millsom",
