@@ -14,4 +14,4 @@
 -	Decrease in stomach and intestinal activity
 -	Pupils dilate
 -	Hair stands up
--	Hormones: Adrenaline, Cortisol
+-	Hormones: [Adrenaline](#!/concepts/Adrenaline), [Cortisol](#!/concepts/Cortisol)

@@ -5,7 +5,7 @@
 ### Self Serving Bias
 
 
--	People take credit for their success. Their [#!/concepts/Dispositional_Factors](dispositional factors) are what caused their success.
+-	People take credit for their success. Their [dispositional factors](#!/concepts/Situational_&_Dispositional_Factors) are what caused their success.
 
 
 ### Modesty Bias

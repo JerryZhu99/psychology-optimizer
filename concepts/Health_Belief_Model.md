@@ -26,4 +26,4 @@ Used to predict whether a person will choose to engage in healthy behavior. Sees
 -   People not always rational and people can be unrealistically optimistic about health
 
 
-([#!/studies/Philadelphia](Philadelphia), [#!/studies/Sandy_Lake](Sandy Lake))
+([Philadelphia](#!/studies/Philadelphia), [Sandy Lake](#!/studies/Sandy_Lake)
