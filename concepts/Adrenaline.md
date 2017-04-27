@@ -15,4 +15,4 @@ When the body enters fight or flight the adrenal gland produces a hormone called
 -	Increases sleeplessness
 -	Increases euphoria
 -	Decreases appetite
--	Relatively short and less damaging than the effects of cortisol
+-	Relatively short and less damaging than the effects of [cortisol](#!/concepts/Cortisol)
