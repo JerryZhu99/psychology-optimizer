@@ -416,11 +416,11 @@
     {
         "Name": "Koluchova",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
+        "Aim":"To see if children can recover (increase brain development) from adverse conditions if the situation is removed and given proper care",
+        "Method":"Case study",
+        "Procedure":"1. The twins were taken by social workers and found at age 7 and placed into faster care leading to adoption by loving sisters -> found living in a shelter/cellar/unheated room\n 2. After being adopted, were placed in a school for mentally retarded children but were soon moved to regular schooling\n 3. IQ’s were test every few years",
+        "Results":"- IQ’s raised from 40 to 100 and 90\n- Made progress thanks to their support environment\n- Became socially well-adjusted, functioned normally academically and had realistic ideas of future education \n- If a child is removed from an extremely improvised situation  possible to reverse deprivation effects\n- They weren’t totally isolated because they have each other\n- Intervention began at age 7 and went on to live normal lives as adults (with families) ",
+        "Strengths":"EV, longitudinal",
         "Limitations":""
     },
     {
@@ -446,82 +446,82 @@
     {
         "Name": "Mahoney",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see the effect of after school programs on the development of academic performance + Motivation for disadvantaged children. ",
+        "Method":"Case Study (correlation within the case study) ",
+        "Procedure":"- 599 boys and girls\n- 6-10 years olds\n- Urban disadvantaged US cities\n- Ethically balanced\nLooked at performance and motivation in school.",
+        "Results":"Participants who participated in full year of after school program had\n - Better test scores\n - Better reading achievements\n - Motivated",
+        "Strengths":"Longitudinal, EV, Large Sample, Ethnically Balanced",
+        "Limitations":"No cause and effect, no max control"
     },
     {
         "Name": "Engle",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if early interventions have a better rate of return than programs introduced later in life. ",
+        "Method":"Case study",
+        "Procedure":"- Review intervention programs in developing countries\n\t-Guinea, Nepal, Bangladesh, Cape Verda \nMeta-analysis ",
+        "Results":"Longer children were in the intervention program, better the benefit to the child cognitively. However, it still will not reach those in a benefitted area.\nOverall gains in skills\n- Sociability \n- Self-confidence\n- Motivation",
+        "Strengths":"Ecological validity, culturally diverse",
+        "Limitations":"No cause and effect, no max control"
     },
     {
         "Name": "Diamond",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if biological factors (testosterone) determines gender role identities. ",
+        "Method":"Experiment. IV: injecting testosterone, DV: behavior of rats.",
+        "Procedure":"Female rat fetuses (girl babies in pregnant mom) were injected with testosterone. \n\t- male hormone maculation of developing brain; one way to explain gender identity ",
+        "Results":"Female rats behaved like male rats when fetuses were injected with testosterone \nMale sexual behavior wanted to mate with females\nAnatomically female\nGender identity influences by biological factors \n",
+        "Strengths":"Max control. Cause and effect",
+        "Limitations":"Study was done on rats so we don’t know if is applicable to humans; unethical to do it with humans\n No ecological validity "
     },
     {
         "Name": "Money",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if socialization influences gender identity ",
+        "Method":"Case Study -> intrinsic (unusual)",
+        "Procedure":"David underwent hormone treatment and minor surgery to became a female although born a male due to an accident\n Socially David was also treated as a female\nBruce<Brenda<David ",
+        "Results":"Moneys theory of socialization over minding biological factors was refuted \nInstead, supported theory of hormonal psychosocial differentiation: combination of bio and sociocultural gender identity \nBiology may be important",
+        "Strengths":"Ecological validity ",
+        "Limitations":"Ethical considerations- could not be repeated due to harm done, No max control, No cause and effect"
     },
     {
         "Name": "Best et al.",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To investigate the gender stereotypes of children ",
+        "Method":"cross-cultural study -> compared sample of children in UK, Ireland and US aged 5 and 8 years with interviews.  ",
+        "Procedure":"(see method)",
+        "Results":"Majority of boys + girls in the two age groups agreed that the girls were soft-hearted while, males were strong. Aggressive, cruel and coarse. \nMany more characteristics stereotypes in the 8 years old group that were similar to stereotype obtained in studies with adults",
+        "Strengths":"Cultural diversity ->limited to three Western cultures ",
+        "Limitations":"No max control, No cause and effect "
     },
     {
         "Name": "Mead",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if gender is a result of cultural or biological factors ",
+        "Method":"Non-participant Naturalistic Observation ",
+        "Procedure":"Compared (observed) gender roles in 3 New Guinean tribes who lived in a radius of 100 miles. ",
+        "Results":"*Don’t need to Know Tribe Names \nArapesh: men and women were cooperative and loving\nMundugumor: men and women were competitive and emotionally unresponsive with each other\nTdhambuli: men gossiped and women worked\n-> human behavior is not determined by genes but by culture",
+        "Strengths":"Ecological validity ",
+        "Limitations":"Study is old -> results may not be reliable today\nNo cause and effect\nNo max control "
     },
     {
         "Name": "Cauffman & Steinberg",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To see if girls were likely to express body dissatisfaction than boys",
+        "Method":"Interviews",
+        "Procedure":"Interviews ",
+        "Results":"Teenage girls tend to develop negative body image and low self-esteem if their body is far from cultural ideal/ if their body develops at a faster pace (more mature). Consistent in western cultures. Supports cultural ideal hypothesis  ",
+        "Strengths":"Ecological validity ",
+        "Limitations":"No max control. No cause and effect."
     },
     {
         "Name": "Ferron",
         "Unit": "Developmental",
-        "Aim":"",
-        "Method":"",
-        "Procedure":"",
-        "Results":"",
-        "Strengths":"",
-        "Limitations":""
+        "Aim":"To find out adolescent’s views on body image",
+        "Method":"Semi Structured interview ",
+        "Procedure":"semi-structured interview",
+        "Results":"US\n- More self-conscious\n- Thinks more of diet and exercise plans\n- Girls think worth=body image\n- Feel as could achieve ideal image\nFrance\n- Thinks that physical appearance is pre-determined to some extent\n- Believes less in diet and\nexercise plans\n- Only blame was physical carelessness",
+        "Strengths":"Limited ecological validity. Equal number of both genders",
+        "Limitations":"No max control. No cause and effect. No ecological validity. Limited cultural variety (only western US and France)"
     },
     {
         "Name": "Giedd",
